@@ -1,0 +1,2912 @@
+[
+	{
+		"datasetid": "schools",
+		"recordid": "a45f837098c3401eea8a028a79de173920f6ad59",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.11400985419304, 49.28500059925005],
+				"type": "Point"
+			},
+			"address": "688 W Hastings St",
+			"school_name": "Alexander Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "fd8fa2e3e11e654331d2d12d49b7401641f28b57",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12579095999999, 49.23963096106753],
+				"type": "Point"
+			},
+			"address": "5025 Willow St",
+			"school_name": "BC Children's Adol. Psych. Unit"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "bbd884f7dad9f84061b6830e6ea950e0446a452d",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07192309841, 49.27523599085204],
+				"type": "Point"
+			},
+			"address": "1001 Cotton Drive",
+			"school_name": "Britannia Community Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ce068ea37f36c852b6a00d84364d1f3b254ad814",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03582905, 49.219380799067466],
+				"type": "Point"
+			},
+			"address": "3340 E 54th Av",
+			"school_name": "Captain James Cook Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e0b8f42c6f84fc76ed8d89eb7b2faeaff687726a",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.03582905, 49.219380799067466],
+				"type": "Point"
+			},
+			"address": "3340 E 54th Av",
+			"school_name": "Captain James Cook StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "115835042abcc647392dfe81eaee01b224df102e",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.05058984, 49.26788631306769],
+				"type": "Point"
+			},
+			"address": "2684 E 2nd Av",
+			"school_name": "Chief Maquinna StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "103f621784da57b1deb071cca44c060d2f5c102b",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.0483494372457, 49.25235796846878],
+				"type": "Point"
+			},
+			"address": "3575 Kaslo St",
+			"school_name": "Children's Hearing and Speech Centre BC"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "aba80932e635287e27335aed0b3ad3dbf083c851",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.032313, 49.23634859906753],
+				"type": "Point"
+			},
+			"address": "3417 Euclid Av",
+			"school_name": "Collingwood Neighbourhood School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "5d2baed5a95215de6485dd5e6c05d8bb29efc20c",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07063159999998, 49.220439256067465],
+				"type": "Point"
+			},
+			"address": "1755 E 55th Av",
+			"school_name": "David Thompson Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "66979395ecf43126d9c15b17025813bc9114e3e1",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03951720287967, 49.27964048422215],
+				"type": "Point"
+			},
+			"address": "555 Lillooet St",
+			"school_name": "Dr A R Lord Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f30654c6a0abdbd964f4a9e1e00cb2155f81fba5",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12100426, 49.22690693506749],
+				"type": "Point"
+			},
+			"address": "6350 Tisdall St",
+			"school_name": "Dr Annie B Jamieson Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "2ce65e7f15baf6f5a0035de93f48b8cb07802d4e",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.19253813000002, 49.25956780506763],
+				"type": "Point"
+			},
+			"address": "3050 Crown St",
+			"school_name": "Ecole Jules Quesnel Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "dbcc1c36245a560532f6a946a138eb3be2c45079",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.122482, 49.27223799906772],
+				"type": "Point"
+			},
+			"address": "150 Drake St",
+			"school_name": "Elsie Roy Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "c5c5aefd5ca9e298c99848c233f6eb3e137708e5",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12609640999999, 49.2500416520676],
+				"type": "Point"
+			},
+			"address": "4070 Oak St",
+			"school_name": "Emily Carr Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a08a9db636828fe971c996567bf005aa3e2ee814",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1982460233882, 49.267667982326586],
+				"type": "Point"
+			},
+			"address": "4196 W 4th Av",
+			"school_name": "Family Montessori School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4039c9f4bb05dcc9cc92d870200b72e0a6bb1e2d",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.15727596082289, 49.26266070419338],
+				"type": "Point"
+			},
+			"address": "2294 W 10th Av",
+			"school_name": "Fraser Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "55c6564358d0f2863fb8a0ab5a4b3a4313e7ba96",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05745595, 49.23673222606754],
+				"type": "Point"
+			},
+			"address": "2330 E 37th Av",
+			"school_name": "G T Cunningham Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "593ba817241f79f2a328ea907b6160b1c1c1dbfc",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.02567271, 49.24206908706756],
+				"type": "Point"
+			},
+			"address": "3633 Tanner St",
+			"school_name": "Graham Bruce Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0f85c3f644faaec54ff1b933f563f46f65b87632",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14935629, 49.2722458780677],
+				"type": "Point"
+			},
+			"address": "1551 Cypress St",
+			"school_name": "Henry Hudson Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "24a87608cc0168b9ca6935df0f1b9f5fcf76c885",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09527169, 49.222569588067465],
+				"type": "Point"
+			},
+			"address": "451 E 53rd Av",
+			"school_name": "John Henderson Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "035f8f2bfaa850ad70e8479b9a6d4a1c1bebad12",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0516408, 49.24142469506758],
+				"type": "Point"
+			},
+			"address": "4710 Slocan St",
+			"school_name": "John Norquay Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8a350d2ceb56996eec05236d76e5b11db6927109",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1227909397854, 49.23344818232933],
+				"type": "Point"
+			},
+			"address": "5718 Willow St",
+			"school_name": "King David High School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b7023d5d94080921c3af83fbdfef6d616516c46f",
+		"fields": {
+			"geo_local_area": "West End",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.13644517, 49.28982415206781],
+				"type": "Point"
+			},
+			"address": "1755 Barclay St",
+			"school_name": "King George Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d892b899677f98f486ce40534c9967881e5c162c",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.14226149913934, 49.24843134181949],
+				"type": "Point"
+			},
+			"address": "4195 Alexandra St",
+			"school_name": "Little Flower Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "3bc10ffa9f256f99aeac5503b71fe0da94bf3757",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05269627000001, 49.2521383750676],
+				"type": "Point"
+			},
+			"address": "3663 Penticton St",
+			"school_name": "Lord Beaconsfield Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "5ea9885067345103273b526b703d4bd02ee1e45a",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.18024556263893, 49.250581806373596],
+				"type": "Point"
+			},
+			"address": "3455 W King Edward Av",
+			"school_name": "Lord Kitchener Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "49c3eccb62d8035901d0c8e0aa5281ccc23682eb",
+		"fields": {
+			"geo_local_area": "West End",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12980600999998, 49.283091710067765],
+				"type": "Point"
+			},
+			"address": "1150 Nelson St",
+			"school_name": "Lord Roberts Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "11297fc5a1509a0c7e562cc1792fb13aba31eb6b",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07246012, 49.24532077406758],
+				"type": "Point"
+			},
+			"address": "4444 Dumfries St",
+			"school_name": "Lord Selkirk Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "c2093011fdb25c16b56a9b61edd9d5cedfa3867a",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.16601055529476, 49.263528260800655],
+				"type": "Point"
+			},
+			"address": "2678 W Broadway",
+			"school_name": "Madrona School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "aceb35a1802e8625056905ffb25bfb2517d3be0c",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.09399954, 49.26396573206767],
+				"type": "Point"
+			},
+			"address": "2300 Guelph St",
+			"school_name": "Mount Pleasant StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e221f44db6badf83f57655917246ab382f882d94",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.19617943097614, 49.264135070670505],
+				"type": "Point"
+			},
+			"address": "2550 Camosun St",
+			"school_name": "Our Lady of Perpetual Help"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "94ad6cac878788ba647f9a5cdf4347508f3b37ab",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.16244364510744, 49.269785798267485],
+				"type": "Point"
+			},
+			"address": "1819 Larch St",
+			"school_name": "Pacific Rim Montessori Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "2d0d67701e840df9dd171916196b0123aee64746",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14026052001878, 49.26329988232251],
+				"type": "Point"
+			},
+			"address": "1580 W Broadway",
+			"school_name": "Peak House"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4a969ee2d45e7a352a28e7d533d7afd3598e2a1a",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.20112784000001, 49.257791772067634],
+				"type": "Point"
+			},
+			"address": "4102 W 16th Av",
+			"school_name": "Queen Elizabeth Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ed93f82366bd09aeccc6d9575bedac1b2a30a843",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06634874, 49.267187849067696],
+				"type": "Point"
+			},
+			"address": "1850 E 3rd Av",
+			"school_name": "Queen Victoria Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "27a7ca380cc05d8023acabf49a3055b47a469429",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03205805, 49.25145777406758],
+				"type": "Point"
+			},
+			"address": "3315 E 22nd Av",
+			"school_name": "Renfrew Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "51f343e7bd99cdbf3a0136cf84a583c769a1a3b9",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14380998000001, 49.24867607506759],
+				"type": "Point"
+			},
+			"address": "4250 Marguerite St",
+			"school_name": "Shaughnessy Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "5ea4c39c49ffa1c4076b476b006afe39f0c0ddbe",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08671432, 49.23453643506752],
+				"type": "Point"
+			},
+			"address": "960 E 39th Av",
+			"school_name": "Sir Alexander Mackenzie Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "509fff8412125c66b4cfa1088c88399414069839",
+		"fields": {
+			"geo_local_area": "Riley Park",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09480947999998, 49.249753501067595],
+				"type": "Point"
+			},
+			"address": "419 E 24th Av",
+			"school_name": "Sir Charles Tupper Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "cf5e9d3ac38451361aa5e99c1f21b20ebf480852",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03760798, 49.234347746067506],
+				"type": "Point"
+			},
+			"address": "3250 Kingsway",
+			"school_name": "Sir Guy Carleton Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b71051ca4b6786d92ed433972c664258c3644e02",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07817551, 49.244156609067566],
+				"type": "Point"
+			},
+			"address": "1300 E 29th Av",
+			"school_name": "Sir Richard McBride Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "cd1a29b2e286234edd0689f7f31f0bd523e2a9fd",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06467911, 49.280723909067746],
+				"type": "Point"
+			},
+			"address": "1950 E Hastings St",
+			"school_name": "Sir William Macdonald Community"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d30828c3a502253b30530c8b56f82cd65500ff79",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12561546, 49.22105956806746],
+				"type": "Point"
+			},
+			"address": "7055 Heather St",
+			"school_name": "Sir Winston Churchill Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f897333333a3b5cd6f9bf2529da8898eb4a8e049",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.10656921, 49.23156648606752],
+				"type": "Point"
+			},
+			"address": "5855 Ontario St",
+			"school_name": "Sir Wm Van Horne Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "29c203a3edd8cce38ce9a6847a332f4d613c2dc6",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.13700792036838, 49.20446493818909],
+				"type": "Point"
+			},
+			"address": "1370 W 73rd Av",
+			"school_name": "St Anthony of Padua"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "5250c73ffd9bd550ea34e7f74b635a84bc7dc228",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1561791428068, 49.26317767149081],
+				"type": "Point"
+			},
+			"address": "2215 W 10th Av",
+			"school_name": "St John's School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "81da8b531c2c160a76b2a8a3af4a1cebe4d8f192",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.03370590892874, 49.237501631148845],
+				"type": "Point"
+			},
+			"address": "5239 Joyce St",
+			"school_name": "St Mary's"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d728eb1361b3d6ec67e5284581011e464bc05d9e",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.10260439171995, 49.261404544549904],
+				"type": "Point"
+			},
+			"address": "115 E 11th Av",
+			"school_name": "St Patrick Regional Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4f84de2fa79f7b9e602de165ac93910ff00dfd28",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1024366967439, 49.259762302830595],
+				"type": "Point"
+			},
+			"address": "2850 Quebec St",
+			"school_name": "St Patrick's Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8c9bcec74d4f102f7f0cc78841a8f36c83149987",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0371743, 49.246512456067585],
+				"type": "Point"
+			},
+			"address": "3155 E 27th Av",
+			"school_name": "Sunny Hill Hospital Program"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "919766b55ebc4c93582df72c97261b39ba0ac007",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03187058558184, 49.263648890401456],
+				"type": "Point"
+			},
+			"address": "2325 Cassiar St",
+			"school_name": "Thunderbird Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "60fb6547f486f7f4582e7378f95c80cb83ddb5cc",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07382164, 49.25356935406761],
+				"type": "Point"
+			},
+			"address": "3525 Dumphries St",
+			"school_name": "Tyee Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "682e2500c9870c7c4ac7e9c67d4d30e5c6380232",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.02856693112142, 49.25471221591419],
+				"type": "Point"
+			},
+			"address": "3496 Mons Drive",
+			"school_name": "Vancouver Christian"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "2ecae4119c339142426b7a92fc5a037bfe075ecb",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1361713344514, 49.23495941876865],
+				"type": "Point"
+			},
+			"address": "5400 Cartier St",
+			"school_name": "Vancouver College"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7713ce37ecacd707f59b9a9c0e162da9d5af0687",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1413692647842, 49.21547172757715],
+				"type": "Point"
+			},
+			"address": "1545 W 62nd Av",
+			"school_name": "Vancouver Hebrew Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a02183786b01a30bac2b4b3378915ad21b90d3a8",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.14463359946043, 49.20779039590787],
+				"type": "Point"
+			},
+			"address": "8650 Barnard St",
+			"school_name": "Vancouver Montessori School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ee646554733de943d010fe8f549ae19dedbfa0a9",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08434542, 49.216109230067424],
+				"type": "Point"
+			},
+			"address": "1000 E 59th Av",
+			"school_name": "Walter Moberly Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "643a2072cefce3d9c7712a0f923bacb14552454b",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.0503919492473, 49.256937847571606],
+				"type": "Point"
+			},
+			"address": "3075 Slocan St",
+			"school_name": "Westside Montessori Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ff3a167f0be50c9685739b8378c210fc7a1db38c",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.14034013611547, 49.248848218981884],
+				"type": "Point"
+			},
+			"address": "4176 Alexandra St",
+			"school_name": "York House School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "df3f4e0d3f621388c6ba5570cd9ae5caab877880",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.13091892226645, 49.277061847359775],
+				"type": "Point"
+			},
+			"address": "1351 Hornby St",
+			"school_name": "Anchor Point Montessori"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ef948413a9825efb5140eb42eab74d89c5b765e2",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12579095999999, 49.23963096106753],
+				"type": "Point"
+			},
+			"address": "5025 Willow St",
+			"school_name": "BCCH Eating Disorders School Program"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "30ff813f5d4340bd6737549f5b523ce3ec968c69",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1193909103338, 49.2583379074734],
+				"type": "Point"
+			},
+			"address": "3020 Heather St",
+			"school_name": "Blessed Sacrament School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4cde5a1955ab98d090218a9075ae569d0d287047",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.14531440269688, 49.263384758081116],
+				"type": "Point"
+			},
+			"address": "1788 W Broadway",
+			"school_name": "Century High School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "dfd8fd0859093907f8691c5b6a4bf54f52b7b094",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08271031, 49.2502130610676],
+				"type": "Point"
+			},
+			"address": "3877 Glen Drive",
+			"school_name": "Charles Dickens Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "76d39d9dd11551e8553a4f4c36a3f519a8ef2208",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.04511809000002, 49.266421543067686],
+				"type": "Point"
+			},
+			"address": "2882 E 4th Av",
+			"school_name": "Chief Maquinna Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7ff38ada04e232fb2b943b453bd8e7d33e43af85",
+		"fields": {
+			"geo_local_area": "Kerrisdale",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.17721815907593, 49.233677833584544],
+				"type": "Point"
+			},
+			"address": "3200 W 41st Av",
+			"school_name": "Crofton House"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "71a2683845b74fe9b8cc04ad48951211a600d557",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.106594, 49.27863099906775],
+				"type": "Point"
+			},
+			"address": "55 Expo Blvd",
+			"school_name": "Crosstown Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d57b4049ee33296d7ed58af7e94e0509bf5bf903",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.02935503511594, 49.22799018553298],
+				"type": "Point"
+			},
+			"address": "6100 Battison St",
+			"school_name": "Dr H N MacCorkindale Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "c5dc2f7564fd9ae92c45a04d9d9684bfcefb1d5f",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09371757, 49.260059324067655],
+				"type": "Point"
+			},
+			"address": "2740 Guelph St",
+			"school_name": "Florence Nightingale Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a3800d241e02b7c4dc5a5ee36241aa05cd14ad0a",
+		"fields": {
+			"geo_local_area": "Riley Park",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.10063141, 49.24121522106756],
+				"type": "Point"
+			},
+			"address": "4860 Main St",
+			"school_name": "General Brock Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "dd31d468f963530d0ed83e7456325699137f2cbb",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0743697, 49.266193169067684],
+				"type": "Point"
+			},
+			"address": "2055 Woodland Dr",
+			"school_name": "Grandview Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4564a9cb58c4e590ba18f9e1dfc6b717a9657cbb",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06022338, 49.26173570306765],
+				"type": "Point"
+			},
+			"address": "2500 Lakewood Drive",
+			"school_name": "Laura Secord Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "cfe9d579b448c4e95053e9d3761e2fb8e261a633",
+		"fields": {
+			"geo_local_area": "West End",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.13784476, 49.28678528206777],
+				"type": "Point"
+			},
+			"address": "1100 Bidwell St",
+			"school_name": "Lord Roberts Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ff0c8a6bfa5fc721bea56e426dd40b98fc115b45",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06900705, 49.249691952067586],
+				"type": "Point"
+			},
+			"address": "1750 E 22nd Av",
+			"school_name": "Lord Selkirk Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "831702f8574a2aac0b6e6676a4e5fac87335e914",
+		"fields": {
+			"geo_local_area": "Strathcona",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09147679242075, 49.27981151466552],
+				"type": "Point"
+			},
+			"address": "592 E Pender St",
+			"school_name": "Lord Strathcona Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d38bd4b1f442732de8dd98a04e5c77fdce2efbb6",
+		"fields": {
+			"geo_local_area": "Kerrisdale",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.15151486, 49.22940869906749],
+				"type": "Point"
+			},
+			"address": "6199 Cypress St",
+			"school_name": "Maple Grove Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "db6d651f05753305d89a93e5807fc4c203697123",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09399954, 49.26396573206767],
+				"type": "Point"
+			},
+			"address": "2300 Guelph St",
+			"school_name": "Mount Pleasant Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8a1160bb52d32bfa835f8ddd0701fb1055006291",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.20112784000001, 49.257791772067634],
+				"type": "Point"
+			},
+			"address": "4102 W 16th Av",
+			"school_name": "Norma Rose Point School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "3269c6d288690b754a981a37601cfe755a765ad2",
+		"fields": {
+			"geo_local_area": "Arbutus-Ridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.15953565, 49.24498305306758],
+				"type": "Point"
+			},
+			"address": "2250 Eddington Drive",
+			"school_name": "Prince of Wales Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4dbee7f97be2df426e09586688b4583f4a41545d",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07592057, 49.261970549067655],
+				"type": "Point"
+			},
+			"address": "1300 E Broadway",
+			"school_name": "Queen Alexandra Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "780ad192383263e8fe185f5cd16d51a517bb13ca",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.10819689943345, 49.25717135541721],
+				"type": "Point"
+			},
+			"address": "100 W 15th Av",
+			"school_name": "Simon Fraser Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7be34e1f36329aa360f74d2d5b0d1dc034f68796",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.08671432, 49.23453643506752],
+				"type": "Point"
+			},
+			"address": "960 E 39th Av",
+			"school_name": "Sir Alexander Mackenzie StrongStart"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "755ceb96a82e1edf060d1e5b3cb833b6acc459d5",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0557042, 49.221596673067474],
+				"type": "Point"
+			},
+			"address": "6901 Elliott St",
+			"school_name": "Sir Charles Kingsford-Smith"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "1450808eaec8ea9dc357f16fb583f027145dcc52",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07329351, 49.214830464067425],
+				"type": "Point"
+			},
+			"address": "7668 Borden St",
+			"school_name": "Sir James Douglas Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b2802ff2e91c4f397bd8d08693a9038879791033",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08495018892324, 49.241944229212045],
+				"type": "Point"
+			},
+			"address": "4750 St. Catherines St",
+			"school_name": "Sir Richard McBride Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "acb77d5a27827704e0200c6e3b355760fbc92ecd",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07657409, 49.22574768906748],
+				"type": "Point"
+			},
+			"address": "1401 E 49th Av",
+			"school_name": "Sir Sandford Fleming Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e3b78ef972ee274295886572bb99f8ef385425f2",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.0348073745407, 49.242891620676865],
+				"type": "Point"
+			},
+			"address": "3323 Wellington Av",
+			"school_name": "Sir Wilfred Grenfell StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f79a5b51ce8b6825b061399a48119773cd7e131e",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.09452064422761, 49.26646231107508],
+				"type": "Point"
+			},
+			"address": "428 Great Northern Way",
+			"school_name": "St Francis Xavier"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "be757f64d44f16d6e1a0e779c793c21b2f430d36",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.14789881614395, 49.2640409804403],
+				"type": "Point"
+			},
+			"address": "1885 W Broadway",
+			"school_name": "St John's International"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8a62f0d203f88a69aa4d36c0943142ebcaf4dcd3",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.06946327228026, 49.257469215545306],
+				"type": "Point"
+			},
+			"address": "3000 Commercial Drive",
+			"school_name": "Stratford Hall"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7bb424dc440b3294cf06acbdbeb763703b678743",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07309884, 49.23711627206752],
+				"type": "Point"
+			},
+			"address": "1551 E 37th Av",
+			"school_name": "Tecumseh Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0df8b0ca709c00401f0ab36e0c68e84f97eec631",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06800394, 49.2320557420675],
+				"type": "Point"
+			},
+			"address": "1850 E 41st Av",
+			"school_name": "Tecumseh Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "57e092d41c362a9b889b158055dbb41de154759b",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.11344354347607, 49.27757064431133],
+				"type": "Point"
+			},
+			"address": "788 Beatty St",
+			"school_name": "The Westside School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "72debd5c182c76d963b720b209a607a6a2382e0f",
+		"fields": {
+			"geo_local_area": "Strathcona",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08031429999998, 49.27859426906773],
+				"type": "Point"
+			},
+			"address": "1130 Keefer St",
+			"school_name": "Admiral Seymour Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "827116d060a915ba9ea6bf56bb9201d319a1dd88",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.07137879542154, 49.27451200859733],
+				"type": "Point"
+			},
+			"address": "1110 Cotton Drive",
+			"school_name": "Britannia Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8177f8a213974aabdbe4720af256e285fefa0c0c",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03054968939806, 49.2140784317513],
+				"type": "Point"
+			},
+			"address": "7835 Champlain Crescent",
+			"school_name": "Champlain Heights Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "38d1fbb488dabc0991ea49cbdc7b40f4caee3de9",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.03054968939806, 49.2140784317513],
+				"type": "Point"
+			},
+			"address": "7835 Champlain Crescent",
+			"school_name": "Champlain Heights Annex StrongStart Cntr"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "16444eaa5513055024a7bcfc37c6ef67e585685f",
+		"fields": {
+			"geo_local_area": "Riley Park",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09798144, 49.2507533360676],
+				"type": "Point"
+			},
+			"address": "315 E 23rd Av",
+			"school_name": "David Livingstone Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "84d2b739cd2bb07b3e4ca0fa12953e73a7ea2db5",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.04440254, 49.22957875906749],
+				"type": "Point"
+			},
+			"address": "2900 E 44th Av",
+			"school_name": "Dr George M Weir Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b33e58d4edecef075522643b7e6fbd59ced967d1",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.11722884, 49.25290710906762],
+				"type": "Point"
+			},
+			"address": "500 W 20th Av",
+			"school_name": "Edith Cavell Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b1f6d4e7d54c931613e1aa8be1eff094c00e9a1e",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12579095999999, 49.23963096106753],
+				"type": "Point"
+			},
+			"address": "5025 Willow St",
+			"school_name": "G F Strong School Program"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "21e3892aed89b466a9b4db887fa568a0554587fc",
+		"fields": {
+			"geo_local_area": "Riley Park",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.10596494, 49.247228706067595],
+				"type": "Point"
+			},
+			"address": "4251 Ontario St",
+			"school_name": "General Wolfe Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "fea56a8f716785cb8d872d188116c229edb9bd92",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05057740868249, 49.28261095988815],
+				"type": "Point"
+			},
+			"address": "2625 Franklin St",
+			"school_name": "Hastings Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f33657a13b08e3596ce6016ef815cea2695a3d2e",
+		"fields": {
+			"geo_local_area": "Arbutus-Ridge",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.16209828723368, 49.238114800850234],
+				"type": "Point"
+			},
+			"address": "2490 W 37th Av",
+			"school_name": "Ivy Montessori School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7fa21fb132759f17539336d36978593f14600a4e",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08804322, 49.22104214306744],
+				"type": "Point"
+			},
+			"address": "801 E 54th Av",
+			"school_name": "John Henderson Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f77c101d611a8bfc2171b862b81f7254731d05ed",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.17345921, 49.23616824506754],
+				"type": "Point"
+			},
+			"address": "5555 Carnarvon St",
+			"school_name": "Kerrisdale Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f31ba228083edd90deaaff3986d3eef8b82926d0",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.04415722000002, 49.22530010406748],
+				"type": "Point"
+			},
+			"address": "6454 Killarney St",
+			"school_name": "Killarney Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8a0f0e8238fa14485e32357118643584e43f05f9",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14937705, 49.262518934067664],
+				"type": "Point"
+			},
+			"address": "1936 W 10th Av",
+			"school_name": "Lord Tennyson Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "04c6847a0be13cacb44d12cd1b351ba8581309ee",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.06467911, 49.280723909067746],
+				"type": "Point"
+			},
+			"address": "1950 E Hastings St",
+			"school_name": "MacDonald StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "fb9a3fca0bfe8134858a88cc1fba447258d6504c",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.12761225509908, 49.23342156632536],
+				"type": "Point"
+			},
+			"address": "5750 Oak St",
+			"school_name": "Pacific Torah Institute"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "655eedae322dda5e4ef213793f7ada8c9c2ec7f8",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.12511331828341, 49.28108362095662],
+				"type": "Point"
+			},
+			"address": "981 Nelson St",
+			"school_name": "Pattison High School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e49e1ff42108b65c81158089480272bf831e9107",
+		"fields": {
+			"geo_local_area": "Downtown",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.12511331828341, 49.28108362095662],
+				"type": "Point"
+			},
+			"address": "981 Nelson St",
+			"school_name": "Pattison School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8548f48b46555b8ac40c2f5f65ac8f10fb498d08",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.15343060436416, 49.23728903611385],
+				"type": "Point"
+			},
+			"address": "5350 East Boulevard",
+			"school_name": "Point Grey Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "bea6024bb40b10c30d3b97a8ebc2269c63b36021",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.15157081, 49.23724621006754],
+				"type": "Point"
+			},
+			"address": "5300 Maple St",
+			"school_name": "Quilchena Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "26694742872c11effbe7a5225266162787f8e124",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.11860774594169, 49.20724201501598],
+				"type": "Point"
+			},
+			"address": "8610 Ash St",
+			"school_name": "Royal Canadian College"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "331f52e4c36407c14220eaaf86ab745c2e34b8a3",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0348073745407, 49.242891620676865],
+				"type": "Point"
+			},
+			"address": "3323 Wellington Av",
+			"school_name": "Sir Wilfred Grenfell Community"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "c8dda1e1901286c58feb50c770a50dceadc06287",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12504721, 49.21776253406744],
+				"type": "Point"
+			},
+			"address": "7350 Laurel St",
+			"school_name": "Sir Wilfrid Laurier Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "f13c1ce2b74619ec82b6758b35fa1371cc46c3e4",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.03187058558184, 49.263648890401456],
+				"type": "Point"
+			},
+			"address": "2325 Cassiar St",
+			"school_name": "Thunderbird StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "9e72e5bbed04e03b5f681a25acce9be0100da6cf",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.05559853, 49.28626345506777],
+				"type": "Point"
+			},
+			"address": "2450 Cambridge St",
+			"school_name": "Tillicum Annex StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ee779ed8cc6ca8e5b4e8b6f2775cda29e9baa0b9",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05559853, 49.28626345506777],
+				"type": "Point"
+			},
+			"address": "2450 Cambridge St",
+			"school_name": "Tillicum Community Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "9889558d81372bcf74aba0c1b31b59236bf41f37",
+		"fields": {
+			"geo_local_area": "Arbutus-Ridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.16460607, 49.250178756067605],
+				"type": "Point"
+			},
+			"address": "4170 Trafalgar St",
+			"school_name": "Trafalgar Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "65c2932be9e5e556ec54809058b632e113af87cd",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14026052001878, 49.26329988232251],
+				"type": "Point"
+			},
+			"address": "1580 W Broadway",
+			"school_name": "Vancouver Alternate"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "31d4ca131741ace02f08b721fbbe9bba58503195",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09279776, 49.23195715006752],
+				"type": "Point"
+			},
+			"address": "530 E 41st Av",
+			"school_name": "Vancouver Learning Network"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "9c95bb677dcce45501c303d1e1c9d82aa057dee5",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.12682202118758, 49.2475796718668],
+				"type": "Point"
+			},
+			"address": "998 W 26th Av",
+			"school_name": "Vancouver Talmud Torah Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "82a00cf385f8d9d8aae2a2a8b9aa6b17798b2548",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.04453612333309, 49.284984466234356],
+				"type": "Point"
+			},
+			"address": "15 N Renfrew St",
+			"school_name": "West Coast Christian School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "491400995a6c596b14670484721f2202ce3eb226",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.20150739365414, 49.26706634514379],
+				"type": "Point"
+			},
+			"address": "4125 W 8th Av",
+			"school_name": "West Point Grey Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "baae50bc1917cc1cb5a2bddb10479ccda70a5c96",
+		"fields": {
+			"geo_local_area": "Strathcona",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.08031429999998, 49.27859426906773],
+				"type": "Point"
+			},
+			"address": "1130 Keefer St",
+			"school_name": "Admiral Seymour StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7695b2e8a05121c9137caf4840799c0590f26d00",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12579095999999, 49.23963096106753],
+				"type": "Point"
+			},
+			"address": "5025 Willow St",
+			"school_name": "BC Childrens Hosp School Program"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "cfa1b6fccfdd3a57967aef78574a019e4634753a",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.18233379, 49.26648700606768],
+				"type": "Point"
+			},
+			"address": "2251 Collingwood St",
+			"school_name": "Bayview Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "02bf9f97cd7db02be1124e1828cd7f9226682e3c",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14306239951357, 49.251669525820965],
+				"type": "Point"
+			},
+			"address": "1690 Matthews Av",
+			"school_name": "Canuck Place School Program"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "3ffae9a4e19f5f4a6f6116b9046f8f97c230dfda",
+		"fields": {
+			"geo_local_area": "Strathcona",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.09507768504591, 49.27155962112064],
+				"type": "Point"
+			},
+			"address": "438 Terminal Av",
+			"school_name": "Columbia College"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "9553d62772d7df6dc49ea6055668e37eecd8ab7c",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.05758354036608, 49.226406104158166],
+				"type": "Point"
+			},
+			"address": "6344 Nanaimo St",
+			"school_name": "Corpus Christi School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "5e8dca8a7deccdbded8b12b89730cc653893a215",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.13634890999998, 49.209962411067416],
+				"type": "Point"
+			},
+			"address": "8370 Cartier St",
+			"school_name": "David Lloyd George StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ccebb62421f9c29cc7c0d9df554adcdd889cdadd",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05829331021336, 49.21331811031946],
+				"type": "Point"
+			},
+			"address": "2421 Scarboro Av",
+			"school_name": "David Oppenheimer Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "34ce75236c312372573c3f556eb4d20c76be1d24",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.17067418, 49.26597990206767],
+				"type": "Point"
+			},
+			"address": "2896 W 6th Av",
+			"school_name": "General Gordon Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "5ef31cca5a34f2f6b8eaea456ace78a298e13183",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06163307000001, 49.24761203506759],
+				"type": "Point"
+			},
+			"address": "4105 Gladstone St",
+			"school_name": "Gladstone Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "17a5ade6b6ff36f74d49bd654d97713ffc1d7b66",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.10879442, 49.21726779206743],
+				"type": "Point"
+			},
+			"address": "7455 Ontario St",
+			"school_name": "J.W. Sexsmith Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "450e010b8e68e5162b98abe4e975013aea3e9899",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.09279776, 49.23195715006752],
+				"type": "Point"
+			},
+			"address": "530 E 41st Av",
+			"school_name": "John Oliver Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "679c6b4db1f1d25ef2415cb2674d9d7430519fb2",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.16358941, 49.262654772067656],
+				"type": "Point"
+			},
+			"address": "2550 W 10th Av",
+			"school_name": "Kitsilano Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7f1bc2b523e5e2f90b1d7f988fd83919797b259e",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.13038640000002, 49.25808403306762],
+				"type": "Point"
+			},
+			"address": "1166 W 14th Av",
+			"school_name": "L'Ecole Bilingue Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "91075e8c9cc9f68dfd777f670eb3222fbe8115d5",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.1925309529982, 49.259566550086106],
+				"type": "Point"
+			},
+			"address": "3939 W 16th Av",
+			"school_name": "Lord Byng Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0d11c4feee7ae0b89097b5d7b5b614aae236e12a",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05971209, 49.27250773706771],
+				"type": "Point"
+			},
+			"address": "2235 Kitchener St",
+			"school_name": "Lord Nelson Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "948ad6d8ab923c9f800cc05b7a56c8f806fecb13",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.05971209, 49.27250773706771],
+				"type": "Point"
+			},
+			"address": "2235 Kitchener St",
+			"school_name": "Lord Nelson StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "2adec755b94a227ebe7df1cec94d37b5f7ae8317",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.06900705, 49.249691952067586],
+				"type": "Point"
+			},
+			"address": "1750 E 22nd Av",
+			"school_name": "Lord Selkirk StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "6f424965432e4f0de09b6e7322d4389dd4727cdc",
+		"fields": {
+			"geo_local_area": "Kerrisdale",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.15153798760876, 49.22855386506042],
+				"type": "Point"
+			},
+			"address": "6360 Maple St",
+			"school_name": "Magee Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "82f8193edd9562317f2d82fba60780e7d8ac533c",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.04294917, 49.25359297006762],
+				"type": "Point"
+			},
+			"address": "3375 Nootka St",
+			"school_name": "Nootka Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "9063c84e7d70ec5f97dbe7463294c17624985186",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.04556662808874, 49.275802839348714],
+				"type": "Point"
+			},
+			"address": "2880 Venables St",
+			"school_name": "Notre Dame Regional Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "9ca97e5e8a2c24dd20675e5d8e6c0f0868a10454",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.05015370472844, 49.27957121602082],
+				"type": "Point"
+			},
+			"address": "575 Slocan St",
+			"school_name": "Our Lady of Sorrows"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "2c871be98a9c83d262bb05ebc3832582cd90b55f",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.05595432992459, 49.28051480952856],
+				"type": "Point"
+			},
+			"address": "2409 E Pender St",
+			"school_name": "PALS Autism School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d16c100c1630fad83044a1150a00ebbe32e5aae3",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1982460233882, 49.267667982326586],
+				"type": "Point"
+			},
+			"address": "4196 W 4th Av",
+			"school_name": "Pacific Spirit School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e81978dbdbc707164a361daf653dadcdf78f761f",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.12761225509908, 49.23342156632536],
+				"type": "Point"
+			},
+			"address": "5750 Oak St",
+			"school_name": "Pacific Torah Institute International"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "c2afffca2ccfac052ebb15890c6f4aa38c2d40ab",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.096959, 49.21445400406743],
+				"type": "Point"
+			},
+			"address": "449 E 62nd Av",
+			"school_name": "Pierre Elliott Trudeau Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "3453e7a31fb692b33609497f839b46528d187ca4",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.032313, 49.23634859906753],
+				"type": "Point"
+			},
+			"address": "3417 Euclid Av",
+			"school_name": "Prov. Early Intervention Resource Prg"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a730a434504e4e4b71f6769b2920c2297230395c",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.07592057, 49.261970549067655],
+				"type": "Point"
+			},
+			"address": "1300 E Broadway",
+			"school_name": "Queen Alexandra StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e26b52253c0c39fa9bbcbb2a0ff426de3a9e7d61",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.19469107, 49.24893677906758],
+				"type": "Point"
+			},
+			"address": "4275 Crown St",
+			"school_name": "Queen Elizabeth Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a00c9fe05e17a3762e7c25430f409ea4f23dc91a",
+		"fields": {
+			"geo_local_area": "West Point Grey",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.20479699, 49.26785642206768],
+				"type": "Point"
+			},
+			"address": "2000 Trimble St",
+			"school_name": "Queen Mary Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b713106f2238626ad583f61d594909d667a660fa",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05026876999999, 49.27541639106772],
+				"type": "Point"
+			},
+			"address": "1025 Slocan St",
+			"school_name": "SD 39 DL Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "67223ba0dea9c9360f626d6ac729422ea1783b50",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0646531767478, 49.21604932869144],
+				"type": "Point"
+			},
+			"address": "2150 Brigadoon Av",
+			"school_name": "Sir James Douglas Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b166c8620991984022347efbd729e1de58d3d672",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.02758566, 49.28249619606777],
+				"type": "Point"
+			},
+			"address": "250S Skeena St",
+			"school_name": "Sir John Franklin Community"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "31dcc3287dcd0e29afcaf7be710148a6548dfe72",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.03801003712412, 49.27183079984159],
+				"type": "Point"
+			},
+			"address": "1430 Lillooet St",
+			"school_name": "Sir Matthew Begbie Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "3620fd7a4353e3cb63ba6fb2d52d1ebfd73aff59",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.11944529999998, 49.210717995067405],
+				"type": "Point"
+			},
+			"address": "590 W 65th Av",
+			"school_name": "Sir Wilfrid Laurier Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0bd80e11fd2322872e3fe5236af63d2c233d1af5",
+		"fields": {
+			"geo_local_area": "Oakridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.13266216000001, 49.23076242206749],
+				"type": "Point"
+			},
+			"address": "5970 Selkirk St",
+			"school_name": "Sir William Osler Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "bf3457d7bd75f31f0dd13cdbc27137f99e040038",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.19781516, 49.23813758506754],
+				"type": "Point"
+			},
+			"address": "5351 Camosun St",
+			"school_name": "Southlands Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a3065cc0fb93a5b95197ee13d274e87695fc4e19",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.09585589038312, 49.22721361145612],
+				"type": "Point"
+			},
+			"address": "450 E 47th Av",
+			"school_name": "St Andrew's"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "6316531b9494012480f47c66e06d68500ea166cb",
+		"fields": {
+			"geo_local_area": "Kitsilano",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.15355224259545, 49.26517255153582],
+				"type": "Point"
+			},
+			"address": "2145 W 8th Av",
+			"school_name": "St Augustine's"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "8ae5379ed61776044e4dd07fa72f53b563dc4fb0",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.06504858875364, 49.276881634743646],
+				"type": "Point"
+			},
+			"address": "870 Victoria Drive",
+			"school_name": "St Francis of Assisi"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "878e44da8e230cd0f8befcd43b57921c9e7c5e3c",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.19846496388473, 49.24758226745896],
+				"type": "Point"
+			},
+			"address": "4175 W 29th Av",
+			"school_name": "St George's School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b88ade6c717d5b3e9f06cf1d1bb9f41c92311c23",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.0716470523458, 49.255914408245054],
+				"type": "Point"
+			},
+			"address": "3261 Fleming St",
+			"school_name": "St Joseph's"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "dd5c0d85229532e667f6138c7e47ea5088139d0f",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.04262672835044, 49.256545786691255],
+				"type": "Point"
+			},
+			"address": "2953 E 15th Av",
+			"school_name": "St Jude's"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "b9d6bdb92a2354e0fc81f0dacf192c12ec68d564",
+		"fields": {
+			"geo_local_area": "Grandview-Woodland",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.06069106000001, 49.278439093067725],
+				"type": "Point"
+			},
+			"address": "727 Templeton Drive",
+			"school_name": "Templeton Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "159d74b55318abb23d9713745791487f4807e4c8",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1361713344514, 49.23495941876865],
+				"type": "Point"
+			},
+			"address": "5400 Cartier St",
+			"school_name": "Vancouver College DL"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "317eb080dc3b2fa5af341dcbbf382348f1ae8047",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.04636736023019, 49.233747421132286],
+				"type": "Point"
+			},
+			"address": "5621 Killarney St",
+			"school_name": "Vancouver Formosa Academy"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ce38c713555a3db7f7fa4dc04d005bbe26777709",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05129983999998, 49.260755475067654],
+				"type": "Point"
+			},
+			"address": "2600 E Broadway",
+			"school_name": "Vancouver Technical Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "7c98b4cc6ff14940809e0b71e4d1c592d9472203",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.08434542, 49.216109230067424],
+				"type": "Point"
+			},
+			"address": "1000 E 59th Av",
+			"school_name": "Walter Moberly StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0b4beec8069e66a9a7f1f7f617b8295e16931f6f",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05578593, 49.22783722506748],
+				"type": "Point"
+			},
+			"address": "6111 Elliott St",
+			"school_name": "Waverley Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "3feffe69619fa18e3fddecfaff9cff946b3ab553",
+		"fields": {
+			"geo_local_area": "Victoria-Fraserview",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.05578593, 49.22783722506748],
+				"type": "Point"
+			},
+			"address": "6111 Elliott St",
+			"school_name": "Waverley StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ec9d531fbc4476d049762c6fb00f76f935843536",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.1280001050362, 49.24857412675284],
+				"type": "Point"
+			},
+			"address": "4157 Oak St",
+			"school_name": "Westside Montessori"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0104bd0501b1e3ad7debed4609996262e9bd1f32",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.0371743, 49.246512456067585],
+				"type": "Point"
+			},
+			"address": "3155 E 27th Av",
+			"school_name": "Windermere Community Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "a6736baba5df8301f3e499bcca655c83068cbdfd",
+		"fields": {
+			"geo_local_area": "Shaughnessy",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.152101, 49.25670999906763],
+				"type": "Point"
+			},
+			"address": "3274 East Boulevard",
+			"school_name": "York House Little School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "0155c79f642083fbd850e7a4e5b1041ac062bbc9",
+		"fields": {
+			"geo_local_area": "Arbutus-Ridge",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.17355723856548, 49.25658742134096],
+				"type": "Point"
+			},
+			"address": "3400 Balaclava St",
+			"school_name": "Carnarvon Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "231a2bd75328108eb1e186b25f424e375987427e",
+		"fields": {
+			"geo_local_area": "Killarney",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.02774835, 49.22064030106746],
+				"type": "Point"
+			},
+			"address": "6955 Frontenac St",
+			"school_name": "Champlain Heights Community Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d5c28d1365cedde615438469bf80972bfe8af623",
+		"fields": {
+			"geo_local_area": "Kensington-Cedar Cottage",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.08239063270196, 49.254854500002445],
+				"type": "Point"
+			},
+			"address": "1010 E 17th Av",
+			"school_name": "Charles Dickens Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "17d849b8cc68bd04ec99936b7a8bee34121f0d14",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05058984, 49.26788631306769],
+				"type": "Point"
+			},
+			"address": "2684 E 2nd Av",
+			"school_name": "Chief Maquinna Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "4daf312ed8b153c354d4ae00e9ad71a751a03ffd",
+		"fields": {
+			"geo_local_area": "Renfrew-Collingwood",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.032313, 49.23634859906753],
+				"type": "Point"
+			},
+			"address": "3417 Euclid Av",
+			"school_name": "Collingwood StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d6795bde002b402f72d5144a4b2aaa80e2bbc6e5",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.14026052001878, 49.26329988232251],
+				"type": "Point"
+			},
+			"address": "1580 W Broadway",
+			"school_name": "Continuing Ed SD 39"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "e228a377f2f07ccad86cc13d923b69bf7e621a31",
+		"fields": {
+			"geo_local_area": "Marpole",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.13634890999998, 49.209962411067416],
+				"type": "Point"
+			},
+			"address": "8370 Cartier St",
+			"school_name": "David Lloyd George Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "93fee0d3e8e640adad5d484849cdbf2002364e3a",
+		"fields": {
+			"geo_local_area": "Kerrisdale",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.15401133, 49.21770658906743],
+				"type": "Point"
+			},
+			"address": "7455 Maple St",
+			"school_name": "Dr R E McKechnie Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "ed6d5b24e7bf01e37f44f67571c108ede0053afa",
+		"fields": {
+			"geo_local_area": "South Cambie",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12579095999999, 49.23963096106753],
+				"type": "Point"
+			},
+			"address": "5025 Willow St",
+			"school_name": "Eric Hamber Secondary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "20a390d42c5f581458c737c145c5368e5a18ec7b",
+		"fields": {
+			"geo_local_area": "Fairview",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.12685921, 49.26710311106769],
+				"type": "Point"
+			},
+			"address": "900 School Green",
+			"school_name": "False Creek Elementary"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "d9018ae9278a424e743e50db3738ddf371a7ace3",
+		"fields": {
+			"geo_local_area": "Mount Pleasant",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.09371757, 49.260059324067655],
+				"type": "Point"
+			},
+			"address": "2740 Guelph St",
+			"school_name": "Florence Nightingale StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "16d440004215dbaa940e40576afb23003fb5ecf9",
+		"fields": {
+			"geo_local_area": "Hastings-Sunrise",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.05026876999999, 49.27541639106772],
+				"type": "Point"
+			},
+			"address": "1025 Slocan St",
+			"school_name": "Garibaldi Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "6f942d302e6d442f07125fda4effb3b9037cdf63",
+		"fields": {
+			"geo_local_area": "Dunbar-Southlands",
+			"school_category": "Independent School",
+			"geom": {
+				"coordinates": [-123.18770751925071, 49.24759061248421],
+				"type": "Point"
+			},
+			"address": "3745 W 28th Av",
+			"school_name": "Immaculate Conception School"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "89dcc6915cbc95e994cee0f0cd0dbcd0654fafad",
+		"fields": {
+			"geo_local_area": "Sunset",
+			"school_category": "StrongStart BC",
+			"geom": {
+				"coordinates": [-123.08804322, 49.22104214306744],
+				"type": "Point"
+			},
+			"address": "801 E 54th Av",
+			"school_name": "John Henderson StrongStart Centre"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	},
+	{
+		"datasetid": "schools",
+		"recordid": "2b7f89c44ebbd9f94a0d99a1b7233792bb8b334b",
+		"fields": {
+			"geo_local_area": "Kerrisdale",
+			"school_category": "Public School",
+			"geom": {
+				"coordinates": [-123.177405, 49.232867999067516],
+				"type": "Point"
+			},
+			"address": "3250 W 43rd Av",
+			"school_name": "Kerrisdale Annex"
+		},
+		"record_timestamp": "2019-06-01T04:01:22.964-07:00"
+	}
+]
