@@ -1,5 +1,16 @@
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+
 function App() {
-	return <div>hi</div>;
+	return (
+		<BrowserRouter>
+			{/* <Header /> */}
+			<Switch>
+				{/* <Redirect from="/" to="/schools" exact />
+				<Route path="/schools" component={Schools} exact />
+				<Route path="/schools/:id" component={SchoolsDetails} /> */}
+			</Switch>
+		</BrowserRouter>
+	);
 }
 
 export default App;
