@@ -16,7 +16,7 @@ schoolRouter.get("/", (req, res) => {
 schoolRouter.get("/:id", (req, res) => {
 	const schools = JSON.parse(fs.readFileSync(FILE_PATH));
 
-	const school = schools.find((school) => school.id === req.params.id);
+	const school = schools.find((school) => school.recordid === req.params.id);
 	if (!school) return res.status(404).send("The school is not found");
 	res.status(200).json(school);
 });

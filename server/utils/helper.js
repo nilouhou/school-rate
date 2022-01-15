@@ -9,3 +9,8 @@ const readFile = (path) => {
 const writeFile = (schoolData, filePath) => {
 	fs.writeFileSync(filePath, JSON.stringify(schoolData, null, 2));
 };
+
+module.exports = {
+	readFile,
+	writeFile,
+};
