@@ -14,24 +14,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
 import MoreIcon from "@mui/icons-material/MoreVert";
-import { createTheme } from "@mui/material/styles";
-
-const theme = createTheme({
-	palette: {
-		primary: {
-			light: "#e5ffff",
-			main: "#b2ebf2",
-			dark: "#81b9bf",
-			contrastText: "#fff",
-		},
-		secondary: {
-			light: "#fff",
-			main: "##f5f5f5",
-			dark: "#c2c2c2",
-			contrastText: "#000",
-		},
-	},
-});
+import Logo from "../../assets/logo2.png";
 
 const Search = styled("div")(({ theme }) => ({
 	position: "relative",
@@ -155,23 +138,10 @@ export default function PrimarySearchAppBar() {
 		<Box sx={{ flexGrow: 1 }}>
 			<AppBar position="static">
 				<Toolbar>
-					<IconButton
-						size="large"
-						edge="start"
-						color="inherit"
-						aria-label="open drawer"
-						sx={{ mr: 2 }}
-					>
-						<MenuIcon />
-					</IconButton>
-					<Typography
-						variant="h6"
-						noWrap
-						component="div"
-						sx={{ display: { xs: "none", sm: "block" } }}
-					>
-						MUI
-					</Typography>
+					<div>
+						<img src={Logo} alt="logo" className="logo" />
+					</div>
+
 					<Search>
 						<SearchIconWrapper>
 							<SearchIcon />
@@ -192,7 +162,7 @@ export default function PrimarySearchAppBar() {
 							onClick={handleProfileMenuOpen}
 							color="inherit"
 						>
-							<AccountCircle />
+							<AccountCircle fontSize="large" />
 						</IconButton>
 					</Box>
 					<Box sx={{ display: { xs: "flex", md: "none" } }}>
