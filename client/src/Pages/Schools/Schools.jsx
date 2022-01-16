@@ -7,12 +7,12 @@ import List from "../../components/List/List";
 import { getData } from "../../utils";
 
 const Schools = () => {
-	const [places, setPlaces] = useState([]);
+	const [schoolsData, setPlaces] = useState([]);
 
 	useEffect(() => {
 		getData().then((data) => {
 			console.log(data);
-			// setPlaces(data);
+			setPlaces(data);
 		});
 	}, []);
 
@@ -22,7 +22,7 @@ const Schools = () => {
 			<Header />
 			<Grid container spacing={0} style={{ width: "100%" }}>
 				<Grid item xs={12} md={4}>
-					<List />
+					<List schools={schoolsData} />
 				</Grid>
 				<Grid item xs={12} md={8}>
 					<Map />
