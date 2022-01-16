@@ -15,6 +15,7 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 
 import MoreIcon from "@mui/icons-material/MoreVert";
 import Logo from "../../assets/logo2.png";
+import "./Header.scss";
 
 const Search = styled("div")(({ theme }) => ({
 	position: "relative",
