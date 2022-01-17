@@ -11,7 +11,6 @@ const Schools = () => {
 
 	useEffect(() => {
 		getData().then((data) => {
-			console.log(data);
 			setPlaces(data);
 		});
 	}, []);
@@ -25,7 +24,7 @@ const Schools = () => {
 					<List schools={schoolsData} />
 				</Grid>
 				<Grid item xs={12} md={8}>
-					<Map />
+					<Map schools={schoolsData} />
 				</Grid>
 			</Grid>
 		</>

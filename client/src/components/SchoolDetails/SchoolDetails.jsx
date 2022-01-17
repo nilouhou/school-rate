@@ -3,7 +3,6 @@ import SchoolImg from "../../assets/images/school.jpg";
 import "./SchoolDetails.scss";
 
 const SchoolDetails = ({ school }) => {
-	console.log(school);
 	const {
 		fields: { address, geo_local_area, school_category, school_name },
 	} = school;

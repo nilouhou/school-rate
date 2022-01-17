@@ -4,14 +4,15 @@ import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 import Rating from "@material-ui/lab";
 import "./Map.scss";
 
-const Map = () => {
+const Map = ({ schools }) => {
+	console.log(schools);
 	const isMobile = useMediaQuery("(min-width:600px)");
 	const defaultProps = {
 		center: {
 			lat: 0,
 			lng: 0,
 		},
-		zoom: 11,
+		zoom: 13,
 	};
 
 	const Marker = ({ text }) => (
@@ -36,23 +37,23 @@ const Map = () => {
 		<div style={{ height: "88vh", width: "100%" }} className="map">
 			<GoogleMapReact
 				bootstrapURLKeys={{ key: "" }}
-				defaultCenter={{ lat: 12.270622, lng: 109.108154 }}
+				defaultCenter={{ lat: 49.28500059925005, lng: -123.11400985419304 }}
 				defaultZoom={defaultProps.zoom}
 				margin={[50, 50, 50, 50]}
 				options={""}
 				// onChange={""}
 				// onChildClick={""}
 			>
-				{/* {places.map((place) =>
-						place.name ? (
-							<Marker
-								key={place.location_id}
-								lat={Number(place.latitude)}
-								lng={Number(place.longitude)}
-								text={place.name}
-							/>
-						) : null
-					)} */}
+				{schools.map((school) =>
+					school.fields.school_name ? (
+						<Marker
+							key={school.recordid}
+							lat={school.fields.geom.coordinates[1]}
+							lng={school.fields.geom.coordinates[0]}
+							text={school.fields.school_name}
+						/>
+					) : null
+				)}
 			</GoogleMapReact>
 		</div>
 	);
