@@ -7,6 +7,9 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 		fields: { address, geo_local_area, school_category, school_name },
 	} = school;
 
+	console.log({ refProp });
+	// console.log({ selected });
+
 	if (selected)
 		refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
