@@ -2,10 +2,13 @@ import React from "react";
 import SchoolImg from "../../assets/images/school.jpg";
 import "./SchoolDetails.scss";
 
-const SchoolDetails = ({ school }) => {
+const SchoolDetails = ({ school, selected, refProp }) => {
 	const {
 		fields: { address, geo_local_area, school_category, school_name },
 	} = school;
+
+	if (selected)
+		refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
 	return (
 		<div className="details">

@@ -8,10 +8,14 @@ import { getData } from "../../utils";
 
 const Schools = () => {
 	const [schoolsData, setPlaces] = useState([]);
+	const [childClicked, setChildClicked] = useState(null);
+	const [loading, setLoading] = useState(false);
 
 	useEffect(() => {
+		setLoading(true);
 		getData().then((data) => {
 			setPlaces(data);
+			setLoading(false);
 		});
 	}, []);
 
@@ -21,10 +25,14 @@ const Schools = () => {
 			<Header />
 			<Grid container spacing={0} style={{ width: "100%" }}>
 				<Grid item xs={12} md={4}>
-					<List schools={schoolsData} />
+					<List
+						schools={schoolsData}
+						childClicked={childClicked}
+						loading={loading}
+					/>
 				</Grid>
 				<Grid item xs={12} md={8}>
-					<Map schools={schoolsData} />
+					<Map schools={schoolsData} setChildClicked={setChildClicked} />
 				</Grid>
 			</Grid>
 		</>

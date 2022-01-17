@@ -4,8 +4,9 @@ import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 import Rating from "@material-ui/lab";
 import "./Map.scss";
 
-const Map = ({ schools }) => {
+const Map = ({ schools, setChildClicked }) => {
 	console.log(schools);
+
 	const isMobile = useMediaQuery("(min-width:600px)");
 	const defaultProps = {
 		center: {
@@ -42,7 +43,7 @@ const Map = ({ schools }) => {
 				margin={[50, 50, 50, 50]}
 				options={""}
 				// onChange={""}
-				// onChildClick={""}
+				onChildClick={(child) => setChildClicked(child)}
 			>
 				{schools.map((school) =>
 					school.fields.school_name ? (
