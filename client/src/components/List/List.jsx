@@ -1,10 +1,11 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import SchoolDetails from "../SchoolDetails";
+import SchoolDetails from "../SchoolDetails/SchoolDetails";
+import "./List.scss";
 
 const List = ({ schools }) => {
 	return (
-		<div>
+		<div className="list">
 			<Grid container spacing={3}>
 				{schools &&
 					schools.map((school, i) => (

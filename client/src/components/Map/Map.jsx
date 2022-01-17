@@ -33,7 +33,7 @@ const Map = () => {
 	);
 
 	return (
-		<div style={{ height: "100vh", width: "100%" }}>
+		<div style={{ height: "88vh", width: "100%" }} className="map">
 			<GoogleMapReact
 				bootstrapURLKeys={{ key: "" }}
 				defaultCenter={{ lat: 12.270622, lng: 109.108154 }}

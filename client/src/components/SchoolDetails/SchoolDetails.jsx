@@ -1,9 +1,24 @@
 import React from "react";
+import SchoolImg from "../../assets/images/school.jpg";
+import "./SchoolDetails.scss";
 
-const SchoolDetails = () => {
+const SchoolDetails = ({ school }) => {
+	console.log(school);
+	const {
+		fields: { address, geo_local_area, school_category, school_name },
+	} = school;
+
 	return (
-		<div>
-			<h1>School Details</h1>
+		<div className="details">
+			<div>
+				<img src={SchoolImg} alt="school" className="details__img" />
+			</div>
+			<div className="detailes__info">
+				<p>{school_name}</p>
+				<p>{school_category}</p>
+				<p>{geo_local_area}</p>
+				<p>{address}</p>
+			</div>
 		</div>
 	);
 };

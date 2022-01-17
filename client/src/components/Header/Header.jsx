@@ -14,7 +14,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
 import MoreIcon from "@mui/icons-material/MoreVert";
-import Logo from "../../assets/logo2.png";
+import Logo from "../../assets/logo/logo2.png";
 import "./Header.scss";
 
 const Search = styled("div")(({ theme }) => ({
@@ -136,7 +136,7 @@ export default function PrimarySearchAppBar() {
 	);
 
 	return (
-		<Box sx={{ flexGrow: 1 }}>
+		<Box sx={{ flexGrow: 1 }} className="header">
 			<AppBar position="static">
 				<Toolbar>
 					<div>
