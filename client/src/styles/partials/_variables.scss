@@ -1,0 +1,38 @@
+/** Variables   ==============
+    Colours, Breakpoints, Gap
+=============================**/
+
+/* Primary Colours */
+$primary-dark: #5bccf6;
+$primary-cta: #2e66e5;
+$primary-light: #fff;
+
+/* Secondary Colours */
+$secondary-dark: #fcde67;
+$secondary-light: #bdc5d5;
+
+/* Background Colours */
+$background-dark: #232940;
+$background-light: #f7f8f9;
+
+/* Supporting Colours */
+$success-green: #158463;
+$reject-red: #c94515;
+
+/* Break points */
+$mobile-breakpoint: 320px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1280px;
+
+/* Gap */
+$mobile-gap: 1rem;
+
+$tablet-gap-outside: 2rem;
+$desktop-gap-outside: 4rem;
+
+$tablet-gap-inside: 1.5rem; // total gap between two elements
+$tablet-half-gap-inside: 0.75rem; // total 24px   gap | Element | gap  gap | Element | gap
+$desktop-half-gap-inside: 0.75rem;
+
+$mobile-gap-component: 1rem;
+$tablet-gap-component: 2.25rem;

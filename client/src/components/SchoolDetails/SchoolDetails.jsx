@@ -1,6 +1,7 @@
 import React from "react";
 import SchoolImg from "../../assets/images/school.jpg";
 import "./SchoolDetails.scss";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
 	const { address, area, category, name } = school;
@@ -17,7 +18,10 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 				<p>{name}</p>
 				<p>{category}</p>
 				<p>{area}</p>
-				<p>{address}</p>
+				<p>
+					<LocationOnIcon color="primary" />
+					{address}
+				</p>
 			</div>
 		</div>
 	);

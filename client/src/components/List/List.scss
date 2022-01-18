@@ -1,18 +1,21 @@
+@use "../../styles/partials/variables" as *;
+
 .list {
 	height: 88vh;
 	overflow: auto;
 	margin-top: 1rem;
+	margin-left: 1rem;
 }
 
 /* Works on Firefox */
 * {
 	scrollbar-width: thin;
-	scrollbar-color: #5bccf6 #fcde67;
+	scrollbar-color: $primary-dark $secondary-dark;
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-	width: 14px;
+	width: 0.875rem;
 }
 
 *::-webkit-scrollbar-track {
@@ -20,6 +23,6 @@
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: #5bccf6;
-	border-radius: 20px;
+	background-color: $primary-dark;
+	border-radius: 1.25rem;
 }
