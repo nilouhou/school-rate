@@ -14,7 +14,7 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 		refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
 	return (
-		<div className="details">
+		<div className={`details ${selected && "selected"}`}>
 			<div>
 				<img src={SchoolImg} alt="school" className="details__img" />
 			</div>
