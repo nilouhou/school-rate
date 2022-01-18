@@ -5,9 +5,10 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MapsHomeWorkIcon from "@mui/icons-material/MapsHomeWork";
 import SchoolIcon from "@mui/icons-material/School";
 import ClassIcon from "@mui/icons-material/Class";
+import Rating from "@mui/material/Rating";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
-	const { address, area, category, name } = school;
+	const { address, area, category, name, rate } = school;
 
 	if (selected)
 		refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -22,6 +23,7 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 					<SchoolIcon color="primary" />
 					{name}
 				</p>
+				<Rating name="read-only" value={rate} readOnly />
 				<p>
 					<ClassIcon color="primary" />
 					{category}
