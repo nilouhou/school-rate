@@ -2,6 +2,9 @@ import React from "react";
 import SchoolImg from "../../assets/images/school.jpg";
 import "./SchoolDetails.scss";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import MapsHomeWorkIcon from "@mui/icons-material/MapsHomeWork";
+import SchoolIcon from "@mui/icons-material/School";
+import ClassIcon from "@mui/icons-material/Class";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
 	const { address, area, category, name } = school;
@@ -15,9 +18,18 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 				<img src={SchoolImg} alt="school" className="details__img" />
 			</div>
 			<div className="detailes__info">
-				<p>{name}</p>
-				<p>{category}</p>
-				<p>{area}</p>
+				<p>
+					<SchoolIcon color="primary" />
+					{name}
+				</p>
+				<p>
+					<ClassIcon color="primary" />
+					{category}
+				</p>
+				<p>
+					<MapsHomeWorkIcon color="primary" />
+					{area}
+				</p>
 				<p>
 					<LocationOnIcon color="primary" />
 					{address}
