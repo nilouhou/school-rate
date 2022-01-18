@@ -11,6 +11,11 @@ const Schools = () => {
 	const [childClicked, setChildClicked] = useState(null);
 	const [loading, setLoading] = useState(false);
 
+	// useEffect(() => {
+	// 	const filteredRanking = schools.filter((school) => school.rank > ranking);
+	// 	setRanking(filteredRanking);
+	// }, [ranking]);
+
 	useEffect(() => {
 		setLoading(true);
 		getData().then((data) => {
