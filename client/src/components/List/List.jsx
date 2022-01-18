@@ -4,7 +4,6 @@ import SchoolDetails from "../SchoolDetails/SchoolDetails";
 import "./List.scss";
 
 const List = ({ schools, childClicked, loading }) => {
-	console.log({ childClicked });
 	const [elRefs, setElRefs] = useState([]);
 
 	useEffect(() => {

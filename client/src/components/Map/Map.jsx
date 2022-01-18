@@ -46,12 +46,12 @@ const Map = ({ schools, setChildClicked }) => {
 				onChildClick={(child) => setChildClicked(child)}
 			>
 				{schools.map((school) =>
-					school.fields.school_name ? (
+					school.name ? (
 						<Marker
 							key={school.recordid}
-							lat={school.fields.geom.coordinates[1]}
-							lng={school.fields.geom.coordinates[0]}
-							text={school.fields.school_name}
+							lat={school.geom.coordinates[1]}
+							lng={school.geom.coordinates[0]}
+							text={school.name}
 						/>
 					) : null
 				)}
