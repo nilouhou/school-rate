@@ -10,11 +10,17 @@ import {
 import SchoolDetails from "../SchoolDetails/SchoolDetails";
 import "./List.scss";
 
-const List = ({ schools, childClicked, loading }) => {
-	const [ranking, setRanking] = useState("");
-	const [rating, setRating] = useState("");
-	const [type, setType] = useState("");
-
+const List = ({
+	schools,
+	childClicked,
+	loading,
+	type,
+	rating,
+	ranking,
+	setType,
+	setRating,
+	setRanking,
+}) => {
 	const [elRefs, setElRefs] = useState([]);
 
 	useEffect(() => {

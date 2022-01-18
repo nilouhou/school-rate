@@ -11,6 +11,10 @@ const Schools = () => {
 	const [childClicked, setChildClicked] = useState(null);
 	const [loading, setLoading] = useState(false);
 
+	const [ranking, setRanking] = useState("");
+	const [rating, setRating] = useState("");
+	const [type, setType] = useState("");
+
 	// useEffect(() => {
 	// 	const filteredRanking = schools.filter((school) => school.rank > ranking);
 	// 	setRanking(filteredRanking);
@@ -34,6 +38,12 @@ const Schools = () => {
 						schools={schoolsData}
 						childClicked={childClicked}
 						loading={loading}
+						type={type}
+						setType={setType}
+						rating={rating}
+						setRating={setRating}
+						ranking={ranking}
+						setRanking={setRanking}
 					/>
 				</Grid>
 				<Grid item xs={12} md={8}>
