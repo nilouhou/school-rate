@@ -16,18 +16,25 @@ const Map = ({ schools, setChildClicked }) => {
 		zoom: 13,
 	};
 
+	const K_SIZE = 40;
 	const Marker = ({ text }) => (
 		<div
 			style={{
-				color: "white",
-				background: "red",
-				padding: "15px 10px",
-				display: "inline-flex",
+				position: "absolute",
+				width: K_SIZE,
+				height: K_SIZE,
+				left: -K_SIZE / 2,
+				top: -K_SIZE / 2,
+
+				border: "5px solid #5bccf6",
+				borderRadius: K_SIZE,
+				backgroundColor: "#fcde67",
 				textAlign: "center",
-				alignItems: "center",
-				justifyContent: "center",
-				borderRadius: "100%",
-				transform: "translate(-50%, -50%)",
+				color: "#009bc3",
+				fontSize: 16,
+				fontWeight: "bold",
+				padding: 4,
+				cursor: "pointer",
 			}}
 		>
 			{text}
@@ -51,7 +58,7 @@ const Map = ({ schools, setChildClicked }) => {
 							key={school.recordid}
 							lat={school.geom.coordinates[1]}
 							lng={school.geom.coordinates[0]}
-							text={school.name}
+							text={school.rank}
 						/>
 					) : null
 				)}
