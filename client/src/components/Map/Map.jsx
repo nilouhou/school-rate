@@ -1,13 +1,8 @@
 import GoogleMapReact from "google-map-react";
-import { Paper, Typography, useMediaQuery } from "@material-ui/core";
-import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
-import Rating from "@material-ui/lab";
+
 import "./Map.scss";
 
 const Map = ({ schools, setChildClicked }) => {
-	console.log(schools);
-
-	const isMobile = useMediaQuery("(min-width:600px)");
 	const defaultProps = {
 		center: {
 			lat: 0,

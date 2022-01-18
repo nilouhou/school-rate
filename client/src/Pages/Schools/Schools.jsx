@@ -7,7 +7,8 @@ import List from "../../components/List/List";
 import { getData } from "../../utils";
 
 const Schools = () => {
-	const [schoolsData, setPlaces] = useState([]);
+	const [schoolsData, setSchoolsData] = useState([]);
+	const [filteredSchool, setFilteredSchool] = useState([]);
 	const [childClicked, setChildClicked] = useState(null);
 	const [loading, setLoading] = useState(false);
 
@@ -15,18 +16,40 @@ const Schools = () => {
 	const [rating, setRating] = useState("");
 	const [type, setType] = useState("");
 
-	// useEffect(() => {
-	// 	const filteredRanking = schools.filter((school) => school.rank > ranking);
-	// 	setRanking(filteredRanking);
-	// }, [ranking]);
+	const filterRanking = (schoolsData) => {
+		return schoolsData.filter((school) => school.rank > ranking);
+	};
+
+	const filterRating = (schoolsData) => {
+		return schoolsData.filter((school) => school.rate > rating);
+	};
+
+	const filterCategory = (schoolsData) => {
+		return schoolsData.filter((school) =>
+			school.category.toLowerCase().trim().includes(type.toLowerCase().trim())
+		);
+	};
+
+	useEffect(() => {
+		let result = schoolsData;
+
+		result = filterRanking(result);
+		result = filterRating(result);
+
+		result = filterCategory(result);
+		console.log({ result });
+		setFilteredSchool(result);
+	}, [ranking, rating, type]);
 
 	useEffect(() => {
 		setLoading(true);
 		getData().then((data) => {
-			setPlaces(data);
+			setSchoolsData(data);
 			setLoading(false);
 		});
 	}, []);
+
+	console.log(filteredSchool);
 
 	return (
 		<>
@@ -35,7 +58,7 @@ const Schools = () => {
 			<Grid container spacing={0} style={{ width: "100%" }}>
 				<Grid item xs={12} md={4}>
 					<List
-						schools={schoolsData}
+						schools={filteredSchool.length ? filteredSchool : schoolsData}
 						childClicked={childClicked}
 						loading={loading}
 						type={type}
@@ -47,7 +70,10 @@ const Schools = () => {
 					/>
 				</Grid>
 				<Grid item xs={12} md={8}>
-					<Map schools={schoolsData} setChildClicked={setChildClicked} />
+					<Map
+						schools={filteredSchool.length ? filteredSchool : schoolsData}
+						setChildClicked={setChildClicked}
+					/>
 				</Grid>
 			</Grid>
 		</>
