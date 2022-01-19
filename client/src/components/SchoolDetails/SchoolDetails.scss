@@ -12,6 +12,13 @@
 		width: 200px;
 		margin-top: 1rem;
 	}
+
+	&__tag {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 0.25rem;
+	}
 }
 
 .selected {

@@ -35,9 +35,9 @@ const Schools = () => {
 
 		result = filterRanking(result);
 		result = filterRating(result);
-
 		result = filterCategory(result);
 		console.log({ result });
+
 		setFilteredSchool(result);
 	}, [ranking, rating, type]);
 

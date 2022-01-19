@@ -54,7 +54,7 @@ const List = ({
 						>
 							<MenuItem value="all">All School</MenuItem>
 							<MenuItem value="public">Public School</MenuItem>
-							<MenuItem value="private">Private School</MenuItem>
+							<MenuItem value="independent">Independent School</MenuItem>
 							<MenuItem value="strongStart">StrongStart BC</MenuItem>
 						</Select>
 					</FormControl>
@@ -67,9 +67,9 @@ const List = ({
 							onChange={(e) => setRanking(e.target.value)}
 						>
 							<MenuItem value="">All</MenuItem>
-							<MenuItem value="3">Under Average</MenuItem>
-							<MenuItem value="6">Average</MenuItem>
-							<MenuItem value="8">Advance</MenuItem>
+							<MenuItem value="3">Good+</MenuItem>
+							<MenuItem value="6">Average+</MenuItem>
+							<MenuItem value="8">Advance+</MenuItem>
 						</Select>
 					</FormControl>
 

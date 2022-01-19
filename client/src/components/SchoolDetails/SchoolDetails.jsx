@@ -6,9 +6,10 @@ import MapsHomeWorkIcon from "@mui/icons-material/MapsHomeWork";
 import SchoolIcon from "@mui/icons-material/School";
 import ClassIcon from "@mui/icons-material/Class";
 import Rating from "@mui/material/Rating";
+import StarsIcon from "@mui/icons-material/Stars";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
-	const { address, area, category, name, rate } = school;
+	const { address, area, category, name, rate, rank } = school;
 
 	if (selected)
 		refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -19,20 +20,25 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 				<img src={SchoolImg} alt="school" className="details__img" />
 			</div>
 			<div className="detailes__info">
-				<p>
+				<p className="details__tag">
 					<SchoolIcon color="primary" />
 					{name}
 				</p>
 				<Rating name="read-only" value={rate} readOnly />
-				<p>
+				<p className="details__tag">
 					<ClassIcon color="primary" />
 					{category}
 				</p>
-				<p>
+
+				<p className="details__tag">
+					<StarsIcon color="primary" />
+					Academic Ranking: {rank}
+				</p>
+				<p className="details__tag">
 					<MapsHomeWorkIcon color="primary" />
 					{area}
 				</p>
-				<p>
+				<p className="details__tag">
 					<LocationOnIcon color="primary" />
 					{address}
 				</p>
