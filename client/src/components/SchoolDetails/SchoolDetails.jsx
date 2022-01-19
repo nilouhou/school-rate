@@ -7,10 +7,10 @@ import SchoolIcon from "@mui/icons-material/School";
 import ClassIcon from "@mui/icons-material/Class";
 import Rating from "@mui/material/Rating";
 import StarsIcon from "@mui/icons-material/Stars";
-import Button from "@mui/material/Button";
+import { Link } from "react-router-dom";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
-	const { address, area, category, name, rate, rank } = school;
+	const { address, area, category, name, rate, rank, recordid } = school;
 
 	if (selected)
 		refProp?.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -43,7 +43,7 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 					<LocationOnIcon color="primary" />
 					{address}
 				</p>
-				<Button variant="outlined">More details</Button>
+				<Link to={`/schools/${recordid}`}>More details</Link>
 			</div>
 		</div>
 	);
