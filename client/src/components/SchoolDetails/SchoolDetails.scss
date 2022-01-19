@@ -1,4 +1,6 @@
 @use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins";
+
 .details {
 	display: flex;
 	gap: 2rem;
@@ -8,9 +10,18 @@
 		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	border-radius: 6px;
 
+	&__img-wrapper {
+		@include mixins.flex-row-center;
+		flex-grow: 1;
+	}
+
 	&__img {
 		width: 200px;
-		margin-top: 1rem;
+		text-align: center;
+	}
+
+	&__info {
+		flex-grow: 2;
 	}
 
 	&__tag {
@@ -18,6 +29,16 @@
 		align-items: center;
 		flex-wrap: wrap;
 		gap: 0.25rem;
+	}
+
+	&__link {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 0.25rem;
+		text-decoration: none;
+		color: $primary-dark;
 	}
 }
 

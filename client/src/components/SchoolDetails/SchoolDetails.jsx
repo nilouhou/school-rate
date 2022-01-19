@@ -7,6 +7,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import ClassIcon from "@mui/icons-material/Class";
 import Rating from "@mui/material/Rating";
 import StarsIcon from "@mui/icons-material/Stars";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { Link } from "react-router-dom";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
@@ -17,10 +18,10 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 
 	return (
 		<div className={`details ${selected && "selected"}`}>
-			<div>
+			<div className="details__img-wrapper">
 				<img src={SchoolImg} alt="school" className="details__img" />
 			</div>
-			<div className="detailes__info">
+			<div className="details__info">
 				<p className="details__tag">
 					<SchoolIcon color="primary" />
 					{name}
@@ -43,7 +44,14 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 					<LocationOnIcon color="primary" />
 					{address}
 				</p>
-				<Link to={`/schools/${recordid}`}>More details</Link>
+				<Link
+					className="details__link"
+					to={`/schools/${recordid}`}
+					color="primary"
+					underline="none"
+				>
+					More details <ArrowForwardIosIcon fontSize="xsmall" />
+				</Link>
 			</div>
 		</div>
 	);
