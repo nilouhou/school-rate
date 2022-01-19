@@ -1,0 +1,36 @@
+@use "../../styles/partials/mixins";
+.school {
+	&__banner {
+		margin-top: 0.25rem;
+		background: linear-gradient(
+					45deg,
+					rgba(255, 175, 189, 0.7),
+					rgba(100, 216, 243, 0.7),
+					rgba(234, 236, 198, 0.7),
+					rgba(245, 146, 176, 0.7),
+					rgba(52, 219, 216, 0.7)
+				)
+				0 0 / 1000% no-repeat,
+			url("../../assets/images/school-banner2.jpg");
+
+		min-height: 400px;
+		background-position: 25% %25;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__name {
+		@include mixins.flex-row-center;
+		background-color: #fff;
+		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		width: 350px;
+		height: 200px;
+		margin: -100px auto;
+		text-align: center;
+		padding: 1rem;
+		border-radius: 4px;
+	}
+}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Header from "../../components/Header/Header";
+
 import Grid from "@mui/material/Grid";
 import CssBaseline from "@mui/material/CssBaseline";
 import Map from "../../components/Map/Map";
@@ -43,18 +43,16 @@ const Schools = () => {
 
 	useEffect(() => {
 		setLoading(true);
-		getData().then((data) => {
+		getData("schools").then((data) => {
 			setSchoolsData(data);
 			setLoading(false);
 		});
 	}, []);
 
-	console.log(filteredSchool);
-
 	return (
 		<>
 			<CssBaseline />
-			{/* <Header /> */}
+
 			<Grid container spacing={0} style={{ width: "100%" }}>
 				<Grid item xs={12} md={4}>
 					<List
