@@ -4,7 +4,6 @@
 
 @use "./variables" as *;
 @use "./mixins";
-@use "./typography";
 
 /* Reset */
 *,
@@ -16,20 +15,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: $background-light;
-	font-family: "TitilliumWeb", Helvetica, sans-serif;
-	@include mixins.body-md-mobile;
-	@include mixins.tablet {
-		@include mixins.body-md-tablet;
-	}
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-	margin: 0;
 }
 
 a {
@@ -40,75 +25,4 @@ ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-}
-/* Typography based on Mobile First*/
-
-h1 {
-	@include mixins.page-header-mobile;
-
-	@include mixins.tablet {
-		@include mixins.page-header-tablet;
-	}
-}
-
-h2 {
-	@include mixins.sub-header-mobile;
-
-	@include mixins.tablet {
-		@include mixins.sub-header-tablet;
-	}
-}
-
-h3 {
-	@include mixins.label-mobile;
-	@include mixins.tablet {
-		@include mixins.label-tablet;
-	}
-}
-
-h4 {
-	@include mixins.table-header-mobile;
-	@include mixins.tablet {
-		@include mixins.table-header-tablet;
-	}
-}
-
-/* Paragraph in different sizes */
-.body-large {
-	@include mixins.body-lg-mobile;
-	@include mixins.tablet {
-		@include mixins.body-lg-tablet;
-	}
-}
-
-.body-medium {
-	@include mixins.body-md-mobile;
-	@include mixins.tablet {
-		@include mixins.body-md-tablet;
-	}
-}
-
-.body-small {
-	@include mixins.body-sm-mobile;
-	@include mixins.tablet {
-		@include mixins.body-sm-tablet;
-	}
-}
-
-/* Main container*/
-.main-container {
-	margin: -4rem $mobile-gap 4rem;
-	box-shadow: 0px 2px 5px rgba(19, 24, 44, 0.1);
-	border-radius: 3px;
-	background-color: $primary-light;
-	min-height: 10rem;
-
-	@include mixins.tablet {
-		margin: -6.0625rem $tablet-gap-outside 6.0625rem;
-	}
-
-	@include mixins.desktop {
-		margin: -6.0625rem auto 6.0625rem;
-		max-width: 63rem;
-	}
 }
