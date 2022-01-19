@@ -7,6 +7,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import ClassIcon from "@mui/icons-material/Class";
 import Rating from "@mui/material/Rating";
 import StarsIcon from "@mui/icons-material/Stars";
+import Button from "@mui/material/Button";
 
 const SchoolDetails = ({ school, selected, refProp }) => {
 	const { address, area, category, name, rate, rank } = school;
@@ -32,7 +33,7 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 
 				<p className="details__tag">
 					<StarsIcon color="primary" />
-					Academic Ranking: {rank}
+					Academic Ranking: {rank}/10
 				</p>
 				<p className="details__tag">
 					<MapsHomeWorkIcon color="primary" />
@@ -42,6 +43,7 @@ const SchoolDetails = ({ school, selected, refProp }) => {
 					<LocationOnIcon color="primary" />
 					{address}
 				</p>
+				<Button variant="outlined">More details</Button>
 			</div>
 		</div>
 	);
