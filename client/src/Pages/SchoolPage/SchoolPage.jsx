@@ -3,9 +3,10 @@ import "./SchoolPage.scss";
 import { getData } from "../../utils";
 
 import Rating from "@mui/material/Rating";
+import CommentForm from "../../components/CommentForm/CommentForm";
+import CommentItem from "../../components/CommentItem/CommentItem";
 
 const SchoolPage = (props) => {
-	const [userRate, setUserRate] = useState(0);
 	const [school, setSchool] = useState([]);
 	useEffect(() => {
 		const { id } = props.match.params;
@@ -15,7 +16,8 @@ const SchoolPage = (props) => {
 	}, []);
 
 	console.log({ school });
-	const { address, area, category, name, rate, rank, recordid } = school;
+	const { address, area, category, name, rate, rank, comments, recordid } =
+		school;
 
 	return (
 		<div className="school">
@@ -28,15 +30,18 @@ const SchoolPage = (props) => {
 			<div className="container">
 				Rate from API {rate}
 				<Rating name="read-only" value={rate ? rate : 0} readOnly />
-				<div className="review">
-					user rate
-					<Rating
-						name="simple-controlled"
-						value={userRate}
-						onChange={(event, newValue) => {
-							setUserRate(newValue);
-						}}
-					/>
+				<div className="review">user rate</div>
+				<div className="video-details__form">
+					<h3>{comments !== undefined && comments.length} Comments</h3>
+
+					<CommentForm formHandler={props.formHandler} id={recordid} />
+				</div>
+				<div className="video-details__comments">
+					{comments !== undefined ? (
+						<CommentItem comments={comments} />
+					) : (
+						<p>Loading....</p>
+					)}
 				</div>
 			</div>
 		</div>

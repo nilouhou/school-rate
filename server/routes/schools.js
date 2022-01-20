@@ -37,14 +37,16 @@ schoolRouter.post("/:id/comments", (req, res) => {
 	};
 
 	const schoolsData = readFile(FILE_PATH);
-	const school = schoolsData.find((school) => school.id === req.params.id);
+	const school = schoolsData.find(
+		(school) => school.recordid === req.params.id
+	);
 
 	if (!school) {
 		return res.status(404).send("school not found");
 	}
 	const updatedSchool = school.comments;
 	updatedSchool.push(newComment);
-	writeFile(schoolsData);
+	writeFile(schoolsData, FILE_PATH);
 
 	return res.status(201).json(newComment);
 });
