@@ -7,9 +7,9 @@ import Rating from "@mui/material/Rating";
 const CommentItem = ({ comments }) => {
 	return (
 		<div>
-			{comments.map((comment) => {
+			{comments.map((comment, i) => {
 				return (
-					<div className="comments-item" key={comment.name}>
+					<div className="comments-item" key={i}>
 						<div className="comments-item__avatar">
 							<Avatar alt={comment.name} src={comment.img ? comment.img : ""} />
 						</div>

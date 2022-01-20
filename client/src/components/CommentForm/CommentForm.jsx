@@ -59,7 +59,7 @@ const CommentForm = ({ addComment }) => {
 				>
 					<Rating
 						name="hover-feedback"
-						value={userRate}
+						value={userRate ? userRate : 0}
 						onChange={(event, newValue) => {
 							setUserRate(newValue);
 						}}
@@ -85,9 +85,15 @@ const CommentForm = ({ addComment }) => {
 						onChange={handleChange}
 					></textarea>
 				</label>
-				<button type="submit" disabled={btnDisabled}>
-					send
-				</button>
+
+				<Button
+					type="submit"
+					disabled={btnDisabled}
+					variant="contained"
+					endIcon={<SendIcon />}
+				>
+					Send
+				</Button>
 			</form>
 		</div>
 	);

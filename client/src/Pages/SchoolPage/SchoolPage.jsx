@@ -30,6 +30,16 @@ const SchoolPage = (props) => {
 		});
 	};
 
+	console.log({ comments });
+
+	let average = Math.ceil(
+		comments.reduce((acc, curr) => {
+			return acc + curr.rate;
+		}, 0) / comments.length
+	);
+
+	console.log(average);
+
 	return (
 		<div className="school">
 			<div className="school__banner"></div>
@@ -40,7 +50,7 @@ const SchoolPage = (props) => {
 				Rate from API {rate}
 				<Rating
 					name="read-only"
-					value={rate ? rate : 0}
+					value={average ? average : rate ? rate : 0}
 					readOnly
 					size="large"
 				/>
@@ -53,6 +63,7 @@ const SchoolPage = (props) => {
 					{comments !== undefined ? (
 						<CommentItem
 							comments={comments.sort((a, b) => b.timestamp - a.timestamp)}
+							average={average}
 						/>
 					) : (
 						<p>Loading....</p>
