@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
 import "./CommentForm.scss";
 
-const CommentForm = () => {
+const CommentForm = ({ addComment }) => {
 	const labels = {
 		1: "Poor",
 		2: "Poor+",
@@ -18,25 +18,26 @@ const CommentForm = () => {
 
 	const [userRate, setUserRate] = useState(0);
 	const [hover, setHover] = React.useState(-1);
-	const [text, setText] = useState("");
+	const [comment, setComment] = useState("");
 	const [btnDisabled, setBtnDisabled] = useState(true);
 
 	const handleChange = (e) => {
-		if (text === "") {
+		if (comment === "") {
 			setBtnDisabled(true);
 		}
 		setBtnDisabled(false);
-		setText(e.target.value);
+		setComment(e.target.value);
 	};
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		const newFeedback = {
-			text,
-			userRate,
+			name: "Nilou",
+			comment,
 		};
 
-		console.log(newFeedback);
+		addComment(newFeedback);
+		setComment("");
 	};
 
 	return (

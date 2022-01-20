@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 import CssBaseline from "@mui/material/CssBaseline";
 import Map from "../../components/Map/Map";
 import List from "../../components/List/List";
-import { getData } from "../../utils";
+import { getData } from "../../helper/utils";
 
 const Schools = () => {
 	const [schoolsData, setSchoolsData] = useState([]);

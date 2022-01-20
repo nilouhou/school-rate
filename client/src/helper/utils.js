@@ -9,3 +9,12 @@ export async function getData(url) {
 		console.log("Could Not fetch data:", err);
 	}
 }
+
+export async function postData(url, comment) {
+	try {
+		const response = await axios.post(`${API_URL}/${url}`, comment);
+		return response.data;
+	} catch (err) {
+		console.log("Could Not fetch data:", err);
+	}
+}
