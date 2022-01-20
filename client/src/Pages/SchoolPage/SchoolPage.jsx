@@ -8,6 +8,7 @@ import CommentItem from "../../components/CommentItem/CommentItem";
 
 const SchoolPage = (props) => {
 	const [school, setSchool] = useState([]);
+
 	useEffect(() => {
 		const { id } = props.match.params;
 		getData(`schools/${id}`).then((data) => {
@@ -25,8 +26,6 @@ const SchoolPage = (props) => {
 			<div className="school__name">
 				<h1>{name}</h1>
 			</div>
-			{/* <Comments userId="1" /> */}
-
 			<div className="container">
 				Rate from API {rate}
 				<Rating
@@ -35,11 +34,10 @@ const SchoolPage = (props) => {
 					readOnly
 					size="large"
 				/>
-				<div className="review">user rate</div>
 				<div className="school__form">
 					<h3>{comments !== undefined && comments.length} Comments</h3>
 
-					<CommentForm formHandler={props.formHandler} id={recordid} />
+					<CommentForm />
 				</div>
 				<div className="school__comments">
 					{comments !== undefined ? (

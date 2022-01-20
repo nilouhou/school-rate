@@ -7,7 +7,7 @@ import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
 import "./CommentForm.scss";
 
-const CommentForm = (props) => {
+const CommentForm = () => {
 	const labels = {
 		1: "Poor",
 		2: "Poor+",
@@ -18,10 +18,25 @@ const CommentForm = (props) => {
 
 	const [userRate, setUserRate] = useState(0);
 	const [hover, setHover] = React.useState(-1);
-	const submitHandler = (e) => {
+	const [text, setText] = useState("");
+	const [btnDisabled, setBtnDisabled] = useState(true);
+
+	const handleChange = (e) => {
+		if (text === "") {
+			setBtnDisabled(true);
+		}
+		setBtnDisabled(false);
+		setText(e.target.value);
+	};
+
+	const handleSubmit = (e) => {
 		e.preventDefault();
-		e.persist();
-		props.formHandler(e, props.id);
+		const newFeedback = {
+			text,
+			userRate,
+		};
+
+		console.log(newFeedback);
 	};
 
 	return (
@@ -32,7 +47,7 @@ const CommentForm = (props) => {
 					src="https://mui.com/static/images/avatar/3.jpg"
 				/>
 			</div>
-			<form className="form" onSubmit={submitHandler}>
+			<form className="form" onSubmit={handleSubmit}>
 				<Box
 					sx={{
 						width: 200,
@@ -57,18 +72,20 @@ const CommentForm = (props) => {
 						<Box sx={{ ml: 2 }}>{labels[hover !== -1 ? hover : userRate]}</Box>
 					)}
 				</Box>
-				<label className="form__label" htmlFor="commentTextArea">
+
+				<label className="form__label" htmlFor="commentText">
 					<textarea
 						className="form__textarea"
-						name="commentTextArea"
-						id="commentTextArea"
+						name="commentText"
+						id="commentText"
 						placeholder="What do you think of this school?"
 						aria-placeholder="What do you think of this school?"
+						onChange={handleChange}
 					></textarea>
 				</label>
-				<Button variant="contained" endIcon={<SendIcon />}>
-					Send
-				</Button>
+				<button type="submit" disabled={btnDisabled}>
+					send
+				</button>
 			</form>
 		</div>
 	);
