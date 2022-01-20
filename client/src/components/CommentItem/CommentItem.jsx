@@ -1,5 +1,6 @@
 import React from "react";
 import { format } from "../../helper/helper";
+import Avatar from "@mui/material/Avatar";
 import "./CommentItem.scss";
 import Rating from "@mui/material/Rating";
 
@@ -9,7 +10,9 @@ const CommentItem = ({ comments }) => {
 			{comments.map((comment) => {
 				return (
 					<div className="comments-item" key={comment.name}>
-						<div className="comments-item__avatar"></div>
+						<div className="comments-item__avatar">
+							<Avatar alt={comment.name} src={comment.img ? comment.img : ""} />
+						</div>
 						<div className="comments-item__message">
 							<p className="comments-item__name">
 								{comment.name}

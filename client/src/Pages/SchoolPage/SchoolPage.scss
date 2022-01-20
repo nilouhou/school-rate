@@ -26,22 +26,36 @@
 		@include mixins.flex-row-center;
 		background-color: #fff;
 		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-		max-width: 350px;
+		width: 250px;
 		height: 200px;
 		margin: -100px auto;
 		text-align: center;
 		padding: 1rem;
-		border-radius: 4px;
+		border-radius: 8px;
+		position: relative;
+		z-index: 2;
+
+		h1 {
+			font-size: 28px;
+		}
+		@include mixins.tablet {
+			width: 350px;
+			h1 {
+				font-size: 36px;
+			}
+		}
 	}
 }
 
 .container {
 	width: 100%;
-	margin: 100px auto;
-	border: 1px solid black;
-	padding: 1rem;
+	margin: 0 auto;
+	box-shadow: 3px 4px 15px rgb(0 0 0 / 10%);
+	border-radius: 30px;
+	padding: 8rem 1rem;
 
 	@include mixins.tablet {
 		width: 70%;
+		padding: 10rem 3rem;
 	}
 }
