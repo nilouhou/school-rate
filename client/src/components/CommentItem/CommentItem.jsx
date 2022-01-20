@@ -1,6 +1,7 @@
 import React from "react";
 import { format } from "../../helper/helper";
 import "./CommentItem.scss";
+import Rating from "@mui/material/Rating";
 
 const CommentItem = ({ comments }) => {
 	return (
@@ -16,6 +17,12 @@ const CommentItem = ({ comments }) => {
 									{format(comment.timestamp)}
 								</span>
 							</p>
+							<Rating
+								name="read-only"
+								value={comment.rate ? comment.rate : 0}
+								readOnly
+								size="small"
+							/>
 							<p className="comments-item__comment">{comment.comment}</p>
 						</div>
 					</div>
