@@ -7,7 +7,7 @@ const CommentItem = ({ comments }) => {
 		<div>
 			{comments.map((comment) => {
 				return (
-					<div className="comments-item" key={comment.id}>
+					<div className="comments-item" key={comment.name}>
 						<div className="comments-item__avatar"></div>
 						<div className="comments-item__message">
 							<p className="comments-item__name">

@@ -26,7 +26,7 @@
 		@include mixins.flex-row-center;
 		background-color: #fff;
 		box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-		width: 350px;
+		max-width: 350px;
 		height: 200px;
 		margin: -100px auto;
 		text-align: center;
@@ -36,8 +36,12 @@
 }
 
 .container {
-	width: 80%;
+	width: 100%;
 	margin: 100px auto;
 	border: 1px solid black;
 	padding: 1rem;
+
+	@include mixins.tablet {
+		width: 70%;
+	}
 }

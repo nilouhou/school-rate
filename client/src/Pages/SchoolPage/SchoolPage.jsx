@@ -29,14 +29,19 @@ const SchoolPage = (props) => {
 
 			<div className="container">
 				Rate from API {rate}
-				<Rating name="read-only" value={rate ? rate : 0} readOnly />
+				<Rating
+					name="read-only"
+					value={rate ? rate : 0}
+					readOnly
+					size="large"
+				/>
 				<div className="review">user rate</div>
-				<div className="video-details__form">
+				<div className="school__form">
 					<h3>{comments !== undefined && comments.length} Comments</h3>
 
 					<CommentForm formHandler={props.formHandler} id={recordid} />
 				</div>
-				<div className="video-details__comments">
+				<div className="school__comments">
 					{comments !== undefined ? (
 						<CommentItem comments={comments} />
 					) : (
