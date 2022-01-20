@@ -34,6 +34,7 @@ const CommentForm = ({ addComment }) => {
 		const newFeedback = {
 			name: "Nilou",
 			comment,
+			rate: userRate,
 		};
 
 		addComment(newFeedback);

@@ -33,6 +33,7 @@ schoolRouter.post("/:id/comments", (req, res) => {
 		id: uuid(),
 		name: req.body.name,
 		comment: req.body.comment,
+		rate: req.body.rate,
 		timestamp: new Date().getTime(),
 	};
 

@@ -9,23 +9,24 @@ import axios from "axios";
 
 const SchoolPage = (props) => {
 	const [school, setSchool] = useState([]);
+	const [comments, setComments] = useState([]);
 
 	useEffect(() => {
 		const { id } = props.match.params;
 		getData(`schools/${id}`).then((data) => {
 			setSchool(data);
+			setComments(data.comments);
 		});
 	}, []);
 
 	console.log({ school });
-	const { address, area, category, name, rate, rank, comments, recordid } =
-		school;
+	const { address, area, category, name, rate, rank, recordid } = school;
 
 	const addComment = (newComment) => {
 		console.log(newComment);
 		const { id } = props.match.params;
 		postData(`schools/${id}/comments`, newComment).then((data) => {
-			setSchool([data, ...school]);
+			setComments([data, ...comments]);
 		});
 	};
 
@@ -50,7 +51,9 @@ const SchoolPage = (props) => {
 				</div>
 				<div className="school__comments">
 					{comments !== undefined ? (
-						<CommentItem comments={comments} />
+						<CommentItem
+							comments={comments.sort((a, b) => b.timestamp - a.timestamp)}
+						/>
 					) : (
 						<p>Loading....</p>
 					)}
