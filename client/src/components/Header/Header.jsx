@@ -1,65 +1,32 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
-import Badge from "@mui/material/Badge";
+
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
+
 import SearchIcon from "@mui/icons-material/Search";
+import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
+import { useVoice } from "../../hooks/useVoice";
+
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
 import MoreIcon from "@mui/icons-material/MoreVert";
 import Logo from "../../assets/logo/logo2.png";
 import "./Header.scss";
-
-const Search = styled("div")(({ theme }) => ({
-	position: "relative",
-	borderRadius: theme.shape.borderRadius,
-	backgroundColor: alpha(theme.palette.common.white, 0.15),
-	"&:hover": {
-		backgroundColor: alpha(theme.palette.common.white, 0.25),
-	},
-	marginRight: theme.spacing(2),
-	marginLeft: 0,
-	width: "100%",
-	[theme.breakpoints.up("sm")]: {
-		marginLeft: theme.spacing(3),
-		width: "auto",
-	},
-}));
-
-const SearchIconWrapper = styled("div")(({ theme }) => ({
-	padding: theme.spacing(0, 2),
-	height: "100%",
-	position: "absolute",
-	pointerEvents: "none",
-	display: "flex",
-	alignItems: "center",
-	justifyContent: "center",
-}));
-
-const StyledInputBase = styled(InputBase)(({ theme }) => ({
-	color: "inherit",
-	"& .MuiInputBase-input": {
-		padding: theme.spacing(1, 1, 1, 0),
-		// vertical padding + font size from searchIcon
-		paddingLeft: `calc(1em + ${theme.spacing(4)})`,
-		transition: theme.transitions.create("width"),
-		width: "100%",
-		[theme.breakpoints.up("md")]: {
-			width: "20ch",
-		},
-	},
-}));
+import useStyle from "./useStyle.js";
+import Mic from "../../assets/icons/mic.svg";
 
 export default function PrimarySearchAppBar() {
-	const [anchorEl, setAnchorEl] = React.useState(null);
-	const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
+	const classes = useStyle();
+	const { text, isListening, listen } = useVoice();
+
+	const [anchorEl, setAnchorEl] = useState(null);
+	const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
 
 	const isMenuOpen = Boolean(anchorEl);
 	const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
@@ -138,20 +105,29 @@ export default function PrimarySearchAppBar() {
 	return (
 		<Box sx={{ flexGrow: 1 }} className="header">
 			<AppBar position="static">
-				<Toolbar>
+				<div className={classes.toolbar}>
 					<div>
 						<img src={Logo} alt="logo" className="logo" />
 					</div>
 
-					<Search>
-						<SearchIconWrapper>
-							<SearchIcon />
-						</SearchIconWrapper>
-						<StyledInputBase
+					<div className={classes.search}>
+						<div className={classes.searchIcon}>
+							<img
+								src={Mic}
+								alt="microphone"
+								onClick={listen}
+								className="mic"
+								style={{ pointerEvents: "all" }}
+							/>
+						</div>
+						<InputBase
 							placeholder="Search…"
-							inputProps={{ "aria-label": "search" }}
+							classes={{ root: classes.inputRoot, input: classes.inputInput }}
 						/>
-					</Search>
+					</div>
+
+					<p>{text}</p>
+
 					<Box sx={{ flexGrow: 1 }} />
 					<Box sx={{ display: { xs: "none", md: "flex" } }}>
 						<IconButton
@@ -178,7 +154,7 @@ export default function PrimarySearchAppBar() {
 							<MoreIcon />
 						</IconButton>
 					</Box>
-				</Toolbar>
+				</div>
 			</AppBar>
 			{renderMobileMenu}
 			{renderMenu}

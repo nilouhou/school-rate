@@ -5,7 +5,16 @@ import { getData, postData } from "../../helper/utils";
 import Rating from "@mui/material/Rating";
 import CommentForm from "../../components/CommentForm/CommentForm";
 import CommentItem from "../../components/CommentItem/CommentItem";
-import axios from "axios";
+import Stack from "@mui/material/Stack";
+import Divider from "@mui/material/Divider";
+import Paper from "@mui/material/Paper";
+import { styled } from "@mui/material/styles";
+
+const Item = styled(Paper)(({ theme }) => ({
+	padding: theme.spacing(2),
+	textAlign: "center",
+	color: theme.palette.text.primary,
+}));
 
 const SchoolPage = (props) => {
 	const [school, setSchool] = useState([]);
@@ -47,27 +56,47 @@ const SchoolPage = (props) => {
 				<h1>{name}</h1>
 			</div>
 			<div className="container">
-				Rate from API {rate}
-				<Rating
-					name="read-only"
-					value={average ? average : rate ? rate : 0}
-					readOnly
-					size="large"
-				/>
-				<div className="school__form">
-					<h3>{comments !== undefined && comments.length} Comments</h3>
+				<Stack
+					direction={{ xs: "column", sm: "row" }}
+					spacing={{ xs: 1, sm: 2, md: 4 }}
+					justifyContent="center"
+					divider={<Divider orientation="vertical" flexItem />}
+				>
+					<Item>
+						<h3>Academy ranking:</h3>
+						<h3>{rank}</h3>
+					</Item>
+					<Item>
+						<h3>Average Parents Rate : {average}</h3>
+						<h3>
+							<Rating
+								name="read-only"
+								value={average ? average : rate ? rate : 0}
+								readOnly
+								size="large"
+							/>
+						</h3>
+					</Item>
+					<Item>
+						<h3>Category:</h3>
+						<h3>{category}</h3>
+					</Item>
+				</Stack>
 
-					<CommentForm addComment={addComment} />
-				</div>
-				<div className="school__comments">
-					{comments !== undefined ? (
-						<CommentItem
-							comments={comments.sort((a, b) => b.timestamp - a.timestamp)}
-							average={average}
-						/>
-					) : (
-						<p>Loading....</p>
-					)}
+				<div className="school__review">
+					<div className="school__form">
+						<CommentForm addComment={addComment} />
+					</div>
+					<div className="school__comments">
+						{comments !== undefined ? (
+							<CommentItem
+								comments={comments.sort((a, b) => b.timestamp - a.timestamp)}
+								average={average}
+							/>
+						) : (
+							<p>Loading....</p>
+						)}
+					</div>
 				</div>
 			</div>
 		</div>
