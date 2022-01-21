@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { styled, alpha } from "@mui/material/styles";
+import React, { useState } from "react";
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -9,8 +9,6 @@ import InputBase from "@mui/material/InputBase";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 
-import SearchIcon from "@mui/icons-material/Search";
-import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
 import { useVoice } from "../../hooks/useVoice";
 
 import AccountCircle from "@mui/icons-material/AccountCircle";
@@ -21,9 +19,8 @@ import "./Header.scss";
 import useStyle from "./useStyle.js";
 import Mic from "../../assets/icons/mic.svg";
 
-export default function PrimarySearchAppBar() {
+const Header = ({ text, listen }) => {
 	const classes = useStyle();
-	const { text, isListening, listen } = useVoice();
 
 	const [anchorEl, setAnchorEl] = useState(null);
 	const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
@@ -103,13 +100,12 @@ export default function PrimarySearchAppBar() {
 	);
 
 	return (
-		<Box sx={{ flexGrow: 1 }} className="header">
-			<AppBar position="static">
-				<div className={classes.toolbar}>
+		<AppBar position="static">
+			<Toolbar className={classes.toolbar}>
+				<Box className={classes.box}>
 					<div>
 						<img src={Logo} alt="logo" className="logo" />
 					</div>
-
 					<div className={classes.search}>
 						<div className={classes.searchIcon}>
 							<img
@@ -119,45 +115,18 @@ export default function PrimarySearchAppBar() {
 								className="mic"
 								style={{ pointerEvents: "all" }}
 							/>
+							;
 						</div>
 						<InputBase
+							value={text && text}
 							placeholder="Search…"
 							classes={{ root: classes.inputRoot, input: classes.inputInput }}
 						/>
 					</div>
-
-					<p>{text}</p>
-
-					<Box sx={{ flexGrow: 1 }} />
-					<Box sx={{ display: { xs: "none", md: "flex" } }}>
-						<IconButton
-							size="large"
-							edge="end"
-							aria-label="account of current user"
-							aria-controls={menuId}
-							aria-haspopup="true"
-							onClick={handleProfileMenuOpen}
-							color="inherit"
-						>
-							<AccountCircle fontSize="large" />
-						</IconButton>
-					</Box>
-					<Box sx={{ display: { xs: "flex", md: "none" } }}>
-						<IconButton
-							size="large"
-							aria-label="show more"
-							aria-controls={mobileMenuId}
-							aria-haspopup="true"
-							onClick={handleMobileMenuOpen}
-							color="inherit"
-						>
-							<MoreIcon />
-						</IconButton>
-					</Box>
-				</div>
-			</AppBar>
-			{renderMobileMenu}
-			{renderMenu}
-		</Box>
+				</Box>
+			</Toolbar>
+		</AppBar>
 	);
-}
+};
+
+export default Header;

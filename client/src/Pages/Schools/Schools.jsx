@@ -5,6 +5,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Map from "../../components/Map/Map";
 import List from "../../components/List/List";
 import { getData } from "../../helper/utils";
+import { useVoice } from "../../hooks/useVoice";
+import Header from "../../components/Header/Header";
 
 const Schools = () => {
 	const [schoolsData, setSchoolsData] = useState([]);
@@ -15,6 +17,17 @@ const Schools = () => {
 	const [ranking, setRanking] = useState("");
 	const [rating, setRating] = useState("");
 	const [type, setType] = useState("");
+	const [query, setQuery] = useState("");
+
+	const { text, isListening, listen } = useVoice();
+
+	const filterSearch = (schoolsData) => {
+		// if(text !== "")
+		return schoolsData.filter((school) =>
+			school.name.toLowerCase().includes(text)
+		);
+	};
+	console.log(filterSearch(schoolsData));
 
 	const filterRanking = (schoolsData) => {
 		return schoolsData.filter((school) => school.rank > ranking);
@@ -36,6 +49,7 @@ const Schools = () => {
 		result = filterRanking(result);
 		result = filterRating(result);
 		result = filterCategory(result);
+		// result = filterSearch(result);
 		console.log({ result });
 
 		setFilteredSchool(result);
@@ -52,7 +66,7 @@ const Schools = () => {
 	return (
 		<>
 			<CssBaseline />
-
+			<Header text={text} listen={listen} />
 			<Grid container spacing={0} style={{ width: "100%" }}>
 				<Grid item xs={12} md={4}>
 					<List

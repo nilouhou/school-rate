@@ -43,4 +43,9 @@ export default makeStyles((theme) => ({
 		display: "flex",
 		justifyContent: "space-between",
 	},
+
+	box: {
+		display: "flex",
+		alignItems: "center",
+	},
 }));

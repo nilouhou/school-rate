@@ -19,7 +19,7 @@ function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<BrowserRouter>
-				<Header />
+				{/* <Header /> */}
 				<Switch>
 					<Redirect from="/" to="/schools" exact />
 					<Route path="/schools" component={Schools} exact />
