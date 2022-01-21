@@ -72,8 +72,14 @@ const Schools = (props) => {
 	return (
 		<>
 			<CssBaseline />
-			<Header text={text} listen={listen} />
+			{/* <Header text={text} listen={listen} /> */}
 			<Grid container spacing={0} style={{ width: "100%" }}>
+				<Grid item xs={12} md={8}>
+					<Map
+						schools={filteredSchool.length ? filteredSchool : schoolsData}
+						setChildClicked={setChildClicked}
+					/>
+				</Grid>
 				<Grid item xs={12} md={4}>
 					<List
 						schools={filteredSchool.length ? filteredSchool : schoolsData}
@@ -85,12 +91,6 @@ const Schools = (props) => {
 						setRating={setRating}
 						ranking={ranking}
 						setRanking={setRanking}
-					/>
-				</Grid>
-				<Grid item xs={12} md={8}>
-					<Map
-						schools={filteredSchool.length ? filteredSchool : schoolsData}
-						setChildClicked={setChildClicked}
 					/>
 				</Grid>
 			</Grid>

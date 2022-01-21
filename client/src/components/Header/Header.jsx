@@ -5,11 +5,9 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import InputBase from "@mui/material/InputBase";
-
+import { Avatar } from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
-
-import { useVoice } from "../../hooks/useVoice";
 
 import AccountCircle from "@mui/icons-material/AccountCircle";
 
@@ -106,6 +104,8 @@ const Header = ({ text, listen }) => {
 					<div>
 						<img src={Logo} alt="logo" className="logo" />
 					</div>
+				</Box>
+				<Box className={classes.box}>
 					<div className={classes.search}>
 						<div className={classes.searchIcon}>
 							<img
@@ -115,14 +115,16 @@ const Header = ({ text, listen }) => {
 								className="mic"
 								style={{ pointerEvents: "all" }}
 							/>
-							;
 						</div>
 						<InputBase
 							value={text && text}
 							placeholder="Search…"
-							classes={{ root: classes.inputRoot, input: classes.inputInput }}
+							className={classes.inputInput}
 						/>
 					</div>
+				</Box>
+				<Box className={classes.box}>
+					<Avatar />
 				</Box>
 			</Toolbar>
 		</AppBar>

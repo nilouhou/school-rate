@@ -3,6 +3,7 @@
 
 .details {
 	display: flex;
+	flex-direction: column;
 	gap: 2rem;
 	padding: 1rem;
 	margin: 0.25rem;
@@ -10,14 +11,27 @@
 		rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	border-radius: 6px;
 
+	@include mixins.desktop {
+		flex-direction: row;
+	}
+
 	&__img-wrapper {
 		@include mixins.flex-row-center;
 		flex-grow: 1;
 	}
 
 	&__img {
-		width: 200px;
+		display: none;
 		text-align: center;
+
+		@include mixins.tablet {
+			display: block;
+			width: 150px;
+		}
+
+		@include mixins.desktop {
+			width: 200px;
+		}
 	}
 
 	&__info {
