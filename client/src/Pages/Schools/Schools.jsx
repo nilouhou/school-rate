@@ -72,7 +72,7 @@ const Schools = (props) => {
 	return (
 		<>
 			<CssBaseline />
-			<Header text={text} listen={listen} />
+			<Header text={text} listen={listen} isListening={isListening} />
 			<Grid container spacing={0} style={{ width: "100%" }}>
 				<Grid item xs={12} md={8}>
 					<Map

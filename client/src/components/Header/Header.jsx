@@ -17,7 +17,7 @@ import "./Header.scss";
 import useStyle from "./useStyle.js";
 import Mic from "../../assets/icons/mic.svg";
 
-const Header = ({ text, listen }) => {
+const Header = ({ text, listen, isListening }) => {
 	const classes = useStyle();
 
 	const [anchorEl, setAnchorEl] = useState(null);
@@ -117,7 +117,7 @@ const Header = ({ text, listen }) => {
 						/>
 						<button id="speech" className="btn" onClick={listen}>
 							<MicIcon />
-							<div className="pulse-ring"></div>
+							<div className={` ${isListening && "pulse-ring"}`}></div>
 						</button>
 						{/* <img
 						src={Mic}
