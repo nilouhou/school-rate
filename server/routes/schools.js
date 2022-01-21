@@ -10,7 +10,20 @@ const FILE_PATH = "./data/schools.json";
 schoolRouter.get("/", (req, res) => {
 	const schoolsData = readFile(FILE_PATH);
 
-	return res.status(200).send(schoolsData);
+	if (!req.query.search) return res.json(schoolsData);
+
+	const query = req.query.search.toLowerCase();
+	const results = schoolsData.filter((school) => {
+		if (
+			school.name.toLowerCase().includes(query) ||
+			school.address.toLowerCase().includes(query) ||
+			school.area.toLowerCase().includes(query) ||
+			school.category.toLowerCase().includes(query)
+		)
+			return school;
+	});
+
+	res.json(results);
 });
 
 //Get a single school by id
