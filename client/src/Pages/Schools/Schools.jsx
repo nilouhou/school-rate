@@ -8,7 +8,7 @@ import { getData } from "../../helper/utils";
 import { useVoice } from "../../hooks/useVoice";
 import Header from "../../components/Header/Header";
 
-const Schools = () => {
+const Schools = (props) => {
 	const [schoolsData, setSchoolsData] = useState([]);
 	const [filteredSchool, setFilteredSchool] = useState([]);
 	const [childClicked, setChildClicked] = useState(null);
@@ -21,13 +21,20 @@ const Schools = () => {
 
 	const { text, isListening, listen } = useVoice();
 
-	const filterSearch = (schoolsData) => {
-		// if(text !== "")
-		return schoolsData.filter((school) =>
-			school.name.toLowerCase().includes(text)
-		);
+	const fetchSchoolsbySearch = (query) => {
+		setLoading(true);
+		props.history.push({ search: `search=${query}` });
+		getData(`schools?search=${query}`).then((data) => {
+			setSchoolsData(data);
+			setLoading(false);
+		});
 	};
-	console.log(filterSearch(schoolsData));
+
+	useEffect(() => {
+		if (text !== "") {
+			fetchSchoolsbySearch(text);
+		}
+	}, [text]);
 
 	const filterRanking = (schoolsData) => {
 		return schoolsData.filter((school) => school.rank > ranking);
@@ -49,7 +56,6 @@ const Schools = () => {
 		result = filterRanking(result);
 		result = filterRating(result);
 		result = filterCategory(result);
-		// result = filterSearch(result);
 		console.log({ result });
 
 		setFilteredSchool(result);
