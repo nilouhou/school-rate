@@ -1,3 +1,4 @@
+@use "../../styles/partials/variables" as *;
 .logo {
 	width: 6.875rem;
 }
@@ -9,4 +10,56 @@
 .mic {
 	transform: scale(0.1);
 	cursor: pointer;
+}
+
+.btn {
+	border: none;
+	padding: 0;
+	border-radius: 100%;
+	width: $size;
+	height: $size;
+	font-size: 3em;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	background: red;
+	position: relative;
+
+	display: inline-block;
+	line-height: $size;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+}
+
+.pulse-ring {
+	content: "";
+	width: $size;
+	height: $size;
+	background: $primary;
+	border: 5px solid $primary;
+	border-radius: 50%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	animation: pulsate infinite 1.5s;
+}
+
+@keyframes pulsate {
+	0% {
+		transform: scale(1, 1);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1.3, 1.3);
+		opacity: 0;
+	}
 }

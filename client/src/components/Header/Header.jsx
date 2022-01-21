@@ -10,7 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
 
 import AccountCircle from "@mui/icons-material/AccountCircle";
-
+import MicIcon from "@mui/icons-material/Mic";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import Logo from "../../assets/logo/logo2.png";
 import "./Header.scss";
@@ -99,31 +99,39 @@ const Header = ({ text, listen }) => {
 
 	return (
 		<AppBar position="static">
-			<Toolbar className={classes.toolbar}>
-				<Box className={classes.box}>
+			<Toolbar
+				className={classes.toolbar}
+				sx={{ flexDirection: { xs: "column", md: "row" } }}
+			>
+				<Box className={classes.box} sx={{ flexDirection: "column" }}>
 					<div>
 						<img src={Logo} alt="logo" className="logo" />
 					</div>
 				</Box>
-				<Box className={classes.box}>
+				<Box className={classes.box} sx={{ flexDirection: "column" }}>
 					<div className={classes.search}>
-						<div className={classes.searchIcon}>
-							<img
-								src={Mic}
-								alt="microphone"
-								onClick={listen}
-								className="mic"
-								style={{ pointerEvents: "all" }}
-							/>
-						</div>
 						<InputBase
 							value={text && text}
 							placeholder="Search…"
 							className={classes.inputInput}
 						/>
+						<button id="speech" className="btn" onClick={listen}>
+							<MicIcon />
+							<div className="pulse-ring"></div>
+						</button>
+						{/* <img
+						src={Mic}
+						alt="microphone"
+						onClick={listen}
+						className="mic"
+						style={{ pointerEvents: "all" }}
+					/> */}
 					</div>
 				</Box>
-				<Box className={classes.box}>
+				<Box
+					className={classes.box}
+					sx={{ display: { xs: "none", md: "block" } }}
+				>
 					<Avatar />
 				</Box>
 			</Toolbar>
