@@ -15,90 +15,16 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 import Logo from "../../assets/logo/logo2.png";
 import "./Header.scss";
 import useStyle from "./useStyle.js";
-import Mic from "../../assets/icons/mic.svg";
 
 const Header = ({ text, listen, isListening }) => {
 	const classes = useStyle();
 
-	const [anchorEl, setAnchorEl] = useState(null);
-	const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null);
-
-	const isMenuOpen = Boolean(anchorEl);
-	const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
-
-	const handleProfileMenuOpen = (event) => {
-		setAnchorEl(event.currentTarget);
-	};
-
-	const handleMobileMenuClose = () => {
-		setMobileMoreAnchorEl(null);
-	};
-
-	const handleMenuClose = () => {
-		setAnchorEl(null);
-		handleMobileMenuClose();
-	};
-
-	const handleMobileMenuOpen = (event) => {
-		setMobileMoreAnchorEl(event.currentTarget);
-	};
-
-	const menuId = "primary-search-account-menu";
-	const renderMenu = (
-		<Menu
-			anchorEl={anchorEl}
-			anchorOrigin={{
-				vertical: "top",
-				horizontal: "right",
-			}}
-			id={menuId}
-			keepMounted
-			transformOrigin={{
-				vertical: "top",
-				horizontal: "right",
-			}}
-			open={isMenuOpen}
-			onClose={handleMenuClose}
-		>
-			<MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-			<MenuItem onClick={handleMenuClose}>My account</MenuItem>
-		</Menu>
-	);
-
-	const mobileMenuId = "primary-search-account-menu-mobile";
-	const renderMobileMenu = (
-		<Menu
-			anchorEl={mobileMoreAnchorEl}
-			anchorOrigin={{
-				vertical: "top",
-				horizontal: "right",
-			}}
-			id={mobileMenuId}
-			keepMounted
-			transformOrigin={{
-				vertical: "top",
-				horizontal: "right",
-			}}
-			open={isMobileMenuOpen}
-			onClose={handleMobileMenuClose}
-		>
-			<MenuItem onClick={handleProfileMenuOpen}>
-				<IconButton
-					size="large"
-					aria-label="account of current user"
-					aria-controls="primary-search-account-menu"
-					aria-haspopup="true"
-					color="inherit"
-				>
-					<AccountCircle />
-				</IconButton>
-				<p>Profile</p>
-			</MenuItem>
-		</Menu>
-	);
-
 	return (
-		<AppBar position="static">
+		<AppBar
+			position="static"
+			className={classes.appbar}
+			style={{ background: "#006d92" }}
+		>
 			<Toolbar
 				className={classes.toolbar}
 				sx={{ flexDirection: { xs: "column", md: "row" } }}
@@ -119,13 +45,6 @@ const Header = ({ text, listen, isListening }) => {
 							<MicIcon />
 							<div className={` ${isListening && "pulse-ring"}`}></div>
 						</button>
-						{/* <img
-						src={Mic}
-						alt="microphone"
-						onClick={listen}
-						className="mic"
-						style={{ pointerEvents: "all" }}
-					/> */}
 					</div>
 				</Box>
 				<Box

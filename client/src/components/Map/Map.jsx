@@ -1,5 +1,5 @@
 import GoogleMapReact from "google-map-react";
-
+import styleMap from "./styleMap";
 import "./Map.scss";
 
 const Map = ({ schools, setChildClicked }) => {
@@ -9,6 +9,12 @@ const Map = ({ schools, setChildClicked }) => {
 			lng: 0,
 		},
 		zoom: 13,
+	};
+
+	const options = {
+		styles: styleMap,
+		disableDefaultUI: true,
+		zoomControl: true,
 	};
 
 	const K_SIZE = 40;
@@ -43,7 +49,7 @@ const Map = ({ schools, setChildClicked }) => {
 				defaultCenter={{ lat: 49.28500059925005, lng: -123.11400985419304 }}
 				defaultZoom={defaultProps.zoom}
 				margin={[50, 50, 50, 50]}
-				options={""}
+				options={options}
 				// onChange={""}
 				onChildClick={(child) => setChildClicked(child)}
 			>

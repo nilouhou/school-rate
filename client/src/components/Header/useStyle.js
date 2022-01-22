@@ -23,8 +23,8 @@ export default makeStyles((theme) => ({
 		borderRadius: theme.shape.borderRadius,
 		backgroundColor: alpha(theme.palette.common.white, 0.35),
 		"&:hover": { backgroundColor: alpha(theme.palette.common.white, 0.25) },
-		padding: theme.spacing(1, 1, 1, 0),
-		paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
+		padding: theme.spacing(1, 1, 1, 2),
+
 		transition: theme.transitions.create("width"),
 		width: "auto",
 		[theme.breakpoints.up("md")]: { width: "20ch" },

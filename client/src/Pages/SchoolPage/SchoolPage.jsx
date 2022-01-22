@@ -9,6 +9,9 @@ import Stack from "@mui/material/Stack";
 import Divider from "@mui/material/Divider";
 import Paper from "@mui/material/Paper";
 import { styled } from "@mui/material/styles";
+import { Grid, Box } from "@mui/material";
+import SchoolAdmissionImg from "../../assets/images/school-admission.jpg";
+import NilouQRCodeImg from "../../assets/images/qr-code.jpg";
 
 const Item = styled(Paper)(({ theme }) => ({
 	padding: theme.spacing(2),
@@ -29,7 +32,7 @@ const SchoolPage = (props) => {
 	}, []);
 
 	console.log({ school });
-	const { address, area, category, name, rate, rank, recordid } = school;
+	const { address, category, name, rate, rank, recordid } = school;
 
 	const addComment = (newComment) => {
 		console.log(newComment);
@@ -39,15 +42,11 @@ const SchoolPage = (props) => {
 		});
 	};
 
-	console.log({ comments });
-
 	let average = Math.ceil(
 		comments.reduce((acc, curr) => {
 			return acc + curr.rate;
 		}, 0) / comments.length
 	);
-
-	console.log(average);
 
 	return (
 		<div className="school">
@@ -62,11 +61,11 @@ const SchoolPage = (props) => {
 					justifyContent="center"
 					divider={<Divider orientation="vertical" flexItem />}
 				>
-					<Item>
+					<Item className="school__item">
 						<h3>Academy ranking:</h3>
 						<h3>{rank}</h3>
 					</Item>
-					<Item>
+					<Item className="school__item">
 						<h3>Average Parents Rate : {average}</h3>
 						<h3>
 							<Rating
@@ -77,27 +76,58 @@ const SchoolPage = (props) => {
 							/>
 						</h3>
 					</Item>
-					<Item>
+					<Item className="school__item">
 						<h3>Category:</h3>
 						<h3>{category}</h3>
 					</Item>
 				</Stack>
-
-				<div className="school__review">
-					<div className="school__form">
-						<CommentForm addComment={addComment} />
-					</div>
-					<div className="school__comments">
-						{comments !== undefined ? (
-							<CommentItem
-								comments={comments.sort((a, b) => b.timestamp - a.timestamp)}
-								average={average}
-							/>
-						) : (
-							<p>Loading....</p>
-						)}
-					</div>
-				</div>
+				<Grid container spacing={0} style={{ width: "100%" }}>
+					<Grid item xs={12} md={8}>
+						<div className="school__review">
+							<div className="school__form">
+								<CommentForm addComment={addComment} />
+							</div>
+							<div className="school__comments">
+								{comments !== undefined ? (
+									<CommentItem
+										comments={comments.sort(
+											(a, b) => b.timestamp - a.timestamp
+										)}
+										average={average}
+									/>
+								) : (
+									<p>Loading....</p>
+								)}
+							</div>
+						</div>
+					</Grid>
+					<Grid item xs={12} md={4}>
+						<Box
+							mt={13.5}
+							sx={{
+								"& > :not(style)": {
+									m: 1,
+									mt: 5,
+								},
+							}}
+						>
+							<Paper elevation={3}>
+								<img
+									src={SchoolAdmissionImg}
+									alt="School admission"
+									className="school__aside-img"
+								/>
+							</Paper>
+							<Paper elevation={3} mt={15}>
+								<img
+									src={NilouQRCodeImg}
+									alt="School admission"
+									className="school__aside-img"
+								/>
+							</Paper>
+						</Box>
+					</Grid>
+				</Grid>
 			</div>
 		</div>
 	);

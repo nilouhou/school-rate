@@ -50,6 +50,16 @@
 		margin: 5rem auto;
 		max-width: 700px;
 	}
+
+	&__aside-img {
+		width: 100%;
+		vertical-align: middle;
+	}
+
+	&__item {
+		color: #0099c1;
+		background-color: #f5f5f5;
+	}
 }
 
 .container {
