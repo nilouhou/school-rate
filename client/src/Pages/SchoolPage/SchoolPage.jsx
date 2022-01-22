@@ -58,6 +58,7 @@ const SchoolPage = (props) => {
 					<h1>{name}</h1>
 				</div>
 				<div className="container">
+					<h3>Address: {address}, Vancouver</h3>
 					<Stack
 						direction={{ xs: "column", sm: "row" }}
 						spacing={{ xs: 1, sm: 2, md: 4 }}

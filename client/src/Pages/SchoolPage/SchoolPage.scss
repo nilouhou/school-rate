@@ -68,6 +68,10 @@
 	border-radius: 30px;
 	padding: 8rem 1rem;
 
+	h3 {
+		@include mixins.flex-row-center;
+	}
+
 	@include mixins.tablet {
 		width: 70%;
 		padding: 10rem 3rem;
