@@ -1,7 +1,4 @@
 @use "../../styles/partials/variables" as *;
-.logo {
-	width: 6.875rem;
-}
 
 .header {
 	height: 10vh;
@@ -19,11 +16,11 @@
 	border-radius: 100%;
 	width: $size;
 	height: $size;
-	font-size: 2em;
-	color: #fff;
+	font-size: 3em;
+	color: #000;
 	padding: 0;
 	margin: 0;
-	background: red;
+	background: #fcde67;
 	position: relative;
 
 	display: inline-block;
@@ -45,8 +42,8 @@
 	content: "";
 	width: $size;
 	height: $size;
-	background: $primary;
-	border: 5px solid $primary;
+	background: $primary-light;
+	border: 5px solid $primary-light;
 	border-radius: 50%;
 	position: absolute;
 	top: 0px;

@@ -1,7 +1,6 @@
 @use "../../styles/partials/mixins";
 .school {
 	&__banner {
-		margin-top: 0.25rem;
 		background: linear-gradient(
 					45deg,
 					rgba(255, 175, 189, 0.7),

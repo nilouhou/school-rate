@@ -39,7 +39,7 @@ const Header = ({ text, listen, isListening }) => {
 							className={classes.inputInput}
 						/>
 						<button id="speech" className="btn" onClick={listen}>
-							<MicIcon />
+							<MicIcon fontSize="large" />
 							<div className={` ${isListening && "pulse-ring"}`}></div>
 						</button>
 					</div>
