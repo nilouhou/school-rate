@@ -12,6 +12,7 @@ import { styled } from "@mui/material/styles";
 import { Grid, Box } from "@mui/material";
 import SchoolAdmissionImg from "../../assets/images/school-admission.jpg";
 import NilouQRCodeImg from "../../assets/images/qr-code.jpg";
+import Nav from "../../components/Nav/Nav";
 
 const Item = styled(Paper)(({ theme }) => ({
 	padding: theme.spacing(2),
@@ -49,87 +50,90 @@ const SchoolPage = (props) => {
 	);
 
 	return (
-		<div className="school">
-			<div className="school__banner"></div>
-			<div className="school__name">
-				<h1>{name}</h1>
-			</div>
-			<div className="container">
-				<Stack
-					direction={{ xs: "column", sm: "row" }}
-					spacing={{ xs: 1, sm: 2, md: 4 }}
-					justifyContent="center"
-					divider={<Divider orientation="vertical" flexItem />}
-				>
-					<Item className="school__item">
-						<h3>Academy ranking:</h3>
-						<h3>{rank}</h3>
-					</Item>
-					<Item className="school__item">
-						<h3>Average Parents Rate : {average}</h3>
-						<h3>
-							<Rating
-								name="read-only"
-								value={average ? average : rate ? rate : 0}
-								readOnly
-								size="large"
-							/>
-						</h3>
-					</Item>
-					<Item className="school__item">
-						<h3>Category:</h3>
-						<h3>{category}</h3>
-					</Item>
-				</Stack>
-				<Grid container spacing={0} style={{ width: "100%" }}>
-					<Grid item xs={12} md={8}>
-						<div className="school__review">
-							<div className="school__form">
-								<CommentForm addComment={addComment} />
+		<>
+			<Nav />
+			<div className="school">
+				<div className="school__banner"></div>
+				<div className="school__name">
+					<h1>{name}</h1>
+				</div>
+				<div className="container">
+					<Stack
+						direction={{ xs: "column", sm: "row" }}
+						spacing={{ xs: 1, sm: 2, md: 4 }}
+						justifyContent="center"
+						divider={<Divider orientation="vertical" flexItem />}
+					>
+						<Item className="school__item">
+							<h3>Academy ranking:</h3>
+							<h3>{rank}</h3>
+						</Item>
+						<Item className="school__item">
+							<h3>Average Parents Rate : {average}</h3>
+							<h3>
+								<Rating
+									name="read-only"
+									value={average ? average : rate ? rate : 0}
+									readOnly
+									size="large"
+								/>
+							</h3>
+						</Item>
+						<Item className="school__item">
+							<h3>Category:</h3>
+							<h3>{category}</h3>
+						</Item>
+					</Stack>
+					<Grid container spacing={0} style={{ width: "100%" }}>
+						<Grid item xs={12} md={8}>
+							<div className="school__review">
+								<div className="school__form">
+									<CommentForm addComment={addComment} />
+								</div>
+								<div className="school__comments">
+									{comments !== undefined ? (
+										<CommentItem
+											comments={comments.sort(
+												(a, b) => b.timestamp - a.timestamp
+											)}
+											average={average}
+										/>
+									) : (
+										<p>Loading....</p>
+									)}
+								</div>
 							</div>
-							<div className="school__comments">
-								{comments !== undefined ? (
-									<CommentItem
-										comments={comments.sort(
-											(a, b) => b.timestamp - a.timestamp
-										)}
-										average={average}
+						</Grid>
+						<Grid item xs={12} md={4}>
+							<Box
+								mt={13.5}
+								sx={{
+									"& > :not(style)": {
+										m: 1,
+										mt: 5,
+									},
+								}}
+							>
+								<Paper elevation={3}>
+									<img
+										src={SchoolAdmissionImg}
+										alt="School admission"
+										className="school__aside-img"
 									/>
-								) : (
-									<p>Loading....</p>
-								)}
-							</div>
-						</div>
+								</Paper>
+								<Paper elevation={3} mt={15}>
+									<img
+										src={NilouQRCodeImg}
+										alt="School admission"
+										className="school__aside-img"
+									/>
+								</Paper>
+							</Box>
+						</Grid>
 					</Grid>
-					<Grid item xs={12} md={4}>
-						<Box
-							mt={13.5}
-							sx={{
-								"& > :not(style)": {
-									m: 1,
-									mt: 5,
-								},
-							}}
-						>
-							<Paper elevation={3}>
-								<img
-									src={SchoolAdmissionImg}
-									alt="School admission"
-									className="school__aside-img"
-								/>
-							</Paper>
-							<Paper elevation={3} mt={15}>
-								<img
-									src={NilouQRCodeImg}
-									alt="School admission"
-									className="school__aside-img"
-								/>
-							</Paper>
-						</Box>
-					</Grid>
-				</Grid>
+				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
