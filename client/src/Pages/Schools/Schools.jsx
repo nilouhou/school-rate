@@ -17,7 +17,6 @@ const Schools = (props) => {
 	const [ranking, setRanking] = useState("");
 	const [rating, setRating] = useState("");
 	const [type, setType] = useState("");
-	const [query, setQuery] = useState("");
 
 	const { text, isListening, listen } = useVoice();
 
@@ -32,6 +31,9 @@ const Schools = (props) => {
 
 	useEffect(() => {
 		if (text !== "") {
+			if (text === "clear") {
+				props.history.push("/");
+			}
 			fetchSchoolsbySearch(text);
 		}
 	}, [text]);

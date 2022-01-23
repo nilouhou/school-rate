@@ -13,6 +13,7 @@ import { Grid, Box } from "@mui/material";
 import SchoolAdmissionImg from "../../assets/images/school-admission.jpg";
 import NilouQRCodeImg from "../../assets/images/qr-code.jpg";
 import Nav from "../../components/Nav/Nav";
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
 const Item = styled(Paper)(({ theme }) => ({
 	padding: theme.spacing(2),
@@ -58,7 +59,9 @@ const SchoolPage = (props) => {
 					<h1>{name}</h1>
 				</div>
 				<div className="container">
-					<h3>Address: {address}, Vancouver</h3>
+					<h3>
+						<LocationOnOutlinedIcon /> {address}, Vancouver
+					</h3>
 					<Stack
 						direction={{ xs: "column", sm: "row" }}
 						spacing={{ xs: 1, sm: 2, md: 4 }}
