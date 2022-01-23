@@ -1,7 +1,8 @@
+@use "../../styles/partials/variables" as *;
 .login {
 	width: 100%;
-	padding: 0 20px;
 	display: flex;
+	margin-top: 6.75rem;
 
 	&__container {
 		padding: 60px;
@@ -11,6 +12,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		border-radius: 20px 2px;
 
 		background: linear-gradient(
 			180deg,
@@ -23,9 +25,9 @@
 
 	&__label {
 		color: white;
-		margin-bottom: 1rem;
+		margin-bottom: 0.5rem;
 		display: block;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		line-height: 1;
 	}
 
@@ -36,36 +38,36 @@
 		font-size: 1.1875rem;
 		padding: 10px;
 		background: rgba(255, 255, 255, 0.1);
-		color: #fff;
+		color: $primary-light;
 		letter-spacing: 1px;
 		border-radius: 4px;
 	}
 
-	&__btnContainer {
+	&__btn-container {
 		width: 100%;
-		padding: 24px 0;
+		padding: 0.875rem 0;
 
 		p {
-			margin: 7px 0 0 0;
+			margin: 10px 0 0 0;
 			text-align: right;
-			color: #fff;
+			color: $primary-light;
 		}
 	}
 
 	&__span {
-		color: yellow;
+		color: $secondary-dark;
 		font-weight: 500;
 		letter-spacing: 0.5px;
 		margin-left: 5px;
 		cursor: pointer;
 		transition: all 400ms ease-in-out;
 		&:hover {
-			color: red;
+			color: $primary-dark;
 		}
 	}
 
 	&__error {
-		color: red;
+		color: $reject-red;
 		font-size: 16px;
 	}
 
@@ -74,13 +76,14 @@
 		outline: none;
 		width: 100%;
 		padding: 15px 0;
-		color: #fff;
+		color: $primary-cta;
 		font-size: 16px;
 		letter-spacing: 1px;
-		background: #5bccf6;
+		background: $primary-dark;
 		border-radius: 4px;
-		margin-top: 7px;
-
 		cursor: pointer;
+		&:hover {
+			background-color: $secondary-dark;
+		}
 	}
 }
