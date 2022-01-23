@@ -33,9 +33,7 @@ const SchoolPage = (props) => {
 		password,
 		setPassword,
 		emailError,
-		setEmailError,
 		passwordError,
-		setPasswordError,
 		hasAccount,
 		setHasAccount,
 		handleLogin,
@@ -72,7 +70,7 @@ const SchoolPage = (props) => {
 
 	return (
 		<>
-			<Nav />
+			<Nav user={user} handleLogOut={handleLogOut} />
 			<div className="school">
 				<div className="school__banner"></div>
 				<div className="school__name">
@@ -111,22 +109,25 @@ const SchoolPage = (props) => {
 					<Grid container spacing={0} style={{ width: "100%" }}>
 						<Grid item xs={12} md={8}>
 							<div className="school__review">
-								<Login
-									email={email}
-									password={password}
-									setEmail={setEmail}
-									setPassword={setPassword}
-									handleLogin={handleLogin}
-									handleSignUp={handleSignUp}
-									hasAccount={hasAccount}
-									setHasAccount={setHasAccount}
-									emailError={emailError}
-									passwordError={passwordError}
-								/>
+								{user ? (
+									<div className="school__form">
+										<CommentForm addComment={addComment} />
+									</div>
+								) : (
+									<Login
+										email={email}
+										password={password}
+										setEmail={setEmail}
+										setPassword={setPassword}
+										handleLogin={handleLogin}
+										handleSignUp={handleSignUp}
+										hasAccount={hasAccount}
+										setHasAccount={setHasAccount}
+										emailError={emailError}
+										passwordError={passwordError}
+									/>
+								)}
 
-								<div className="school__form">
-									<CommentForm addComment={addComment} />
-								</div>
 								<div className="school__comments">
 									{comments !== undefined ? (
 										<CommentItem

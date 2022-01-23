@@ -8,8 +8,9 @@ import Logo from "../../assets/logo/logo2.png";
 import "../Header/Header.scss";
 import useStyle from "../Header/useStyle";
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
-const Header = () => {
+const Nav = ({ user, handleLogOut }) => {
 	const classes = useStyle();
 
 	return (
@@ -34,11 +35,17 @@ const Header = () => {
 					className={classes.box}
 					sx={{ display: { xs: "none", md: "block" } }}
 				>
-					<Avatar />
+					{user ? (
+						<>
+							<Button onClick={handleLogOut}>Logout</Button>
+						</>
+					) : (
+						<Avatar />
+					)}
 				</Box>
 			</Toolbar>
 		</AppBar>
 	);
 };
 
-export default Header;
+export default Nav;

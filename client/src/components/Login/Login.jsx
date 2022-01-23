@@ -8,9 +8,7 @@ const Login = (props) => {
 		password,
 		setPassword,
 		emailError,
-		setEmailError,
 		passwordError,
-		setPasswordError,
 		hasAccount,
 		setHasAccount,
 		handleLogin,
@@ -19,10 +17,10 @@ const Login = (props) => {
 	return (
 		<section className="login">
 			<div className="login__container">
-				<label className="login__label">Username</label>
+				<label className="login__label">Email</label>
 				<input
 					type="text"
-					autoFocus
+					outofocus="true"
 					required
 					className="login__input"
 					value={email}
@@ -38,12 +36,14 @@ const Login = (props) => {
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
 				/>
-				<p className="login__error">{emailError}</p>
+				<p className="login__error">{passwordError}</p>
 
 				<div className="login__btn-container">
 					{hasAccount ? (
 						<>
-							<button onClick={handleLogin}>Sign in</button>
+							<button onClick={handleLogin} className="login__button">
+								Sign in
+							</button>
 							<p>
 								Don't have an account?{" "}
 								<span
@@ -56,7 +56,9 @@ const Login = (props) => {
 						</>
 					) : (
 						<>
-							<button onClick={handleSignUp}>Sign up</button>
+							<button onClick={handleSignUp} className="login__button">
+								Sign up
+							</button>
 							<p>
 								Have an account?{" "}
 								<span
