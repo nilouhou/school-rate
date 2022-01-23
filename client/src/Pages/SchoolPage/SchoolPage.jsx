@@ -55,7 +55,6 @@ const SchoolPage = (props) => {
 	const { address, category, name, rate, rank } = school;
 
 	const addComment = (newComment) => {
-		console.log(newComment);
 		const { id } = props.match.params;
 		postData(`schools/${id}/comments`, newComment).then((data) => {
 			setComments([data, ...comments]);
