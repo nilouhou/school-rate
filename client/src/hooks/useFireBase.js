@@ -48,6 +48,20 @@ const useFireBase = () => {
 		fire.auth().signOut();
 	};
 
+	const authListener = () => {
+		fire.auth().onAuthStateChanged((user) => {
+			if (user) {
+				setUser(user);
+			} else {
+				setUser("");
+			}
+		});
+	};
+
+	useEffect(() => {
+		authListener();
+	}, []);
+
 	return {};
 };
 
