@@ -9,7 +9,7 @@ That would be nice to go to a website or app where you can see everything in one
 
 ## Demo
 
-
+![demo](https://faratech.ca/demo/schoolratedemo.gif)
 
 
 ## Technology used:
