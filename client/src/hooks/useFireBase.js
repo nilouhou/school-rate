@@ -75,7 +75,23 @@ const useFireBase = () => {
 		authListener();
 	}, []);
 
-	return {};
+	return {
+		user,
+		setUser,
+		email,
+		setEmail,
+		password,
+		setPassword,
+		emailError,
+		setEmailError,
+		passwordError,
+		setPasswordError,
+		hasAccount,
+		setHasAccount,
+		handleLogin,
+		handleSignUp,
+		handleLogOut,
+	};
 };
 
 export { useFireBase };

@@ -15,6 +15,9 @@ import NilouQRCodeImg from "../../assets/images/qr-code.jpg";
 import Nav from "../../components/Nav/Nav";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
+import Login from "../../components/Login/Login";
+import { useFireBase } from "../../hooks/useFireBase";
+
 const Item = styled(Paper)(({ theme }) => ({
 	padding: theme.spacing(2),
 	textAlign: "center",
@@ -22,6 +25,24 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 const SchoolPage = (props) => {
+	const {
+		user,
+		setUser,
+		email,
+		setEmail,
+		password,
+		setPassword,
+		emailError,
+		setEmailError,
+		passwordError,
+		setPasswordError,
+		hasAccount,
+		setHasAccount,
+		handleLogin,
+		handleSignUp,
+		handleLogOut,
+	} = useFireBase();
+
 	const [school, setSchool] = useState([]);
 	const [comments, setComments] = useState([]);
 
@@ -33,8 +54,7 @@ const SchoolPage = (props) => {
 		});
 	}, []);
 
-	console.log({ school });
-	const { address, category, name, rate, rank, recordid } = school;
+	const { address, category, name, rate, rank } = school;
 
 	const addComment = (newComment) => {
 		console.log(newComment);
@@ -91,6 +111,19 @@ const SchoolPage = (props) => {
 					<Grid container spacing={0} style={{ width: "100%" }}>
 						<Grid item xs={12} md={8}>
 							<div className="school__review">
+								<Login
+									email={email}
+									password={password}
+									setEmail={setEmail}
+									setPassword={setPassword}
+									handleLogin={handleLogin}
+									handleSignUp={handleSignUp}
+									hasAccount={hasAccount}
+									setHasAccount={setHasAccount}
+									emailError={emailError}
+									passwordError={passwordError}
+								/>
+
 								<div className="school__form">
 									<CommentForm addComment={addComment} />
 								</div>
