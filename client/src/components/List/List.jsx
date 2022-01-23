@@ -88,7 +88,7 @@ const List = ({
 					</FormControl>
 
 					<Grid container spacing={3}>
-						{schools &&
+						{schools.length ? (
 							schools.map((school, i) => (
 								<Grid ref={elRefs[i]} item xs={12} key={i}>
 									<SchoolDetails
@@ -97,7 +97,12 @@ const List = ({
 										refProp={elRefs[i]}
 									/>
 								</Grid>
-							))}
+							))
+						) : (
+							<Grid item xs={12}>
+								<p>Sorry no record.</p>
+							</Grid>
+						)}
 					</Grid>
 				</>
 			)}
