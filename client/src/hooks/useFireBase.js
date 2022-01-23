@@ -9,7 +9,18 @@ const useFireBase = () => {
 	const [passwordError, setPasswordError] = useState("");
 	const [hasAccount, setHasAccount] = useState(false);
 
+	const clearInputs = () => {
+		setEmail("");
+		setPassword("");
+	};
+
+	const clearErrors = () => {
+		setPasswordError("");
+		setEmailError("");
+	};
+
 	const handleLogin = () => {
+		clearErrors();
 		fire
 			.auth()
 			.signInWithEmailAndPassword(email, password)
@@ -28,6 +39,7 @@ const useFireBase = () => {
 	};
 
 	const handleSignUp = () => {
+		clearErrors();
 		fire
 			.auth()
 			.createUserWithEmailAndPassword(email, password)
@@ -51,6 +63,7 @@ const useFireBase = () => {
 	const authListener = () => {
 		fire.auth().onAuthStateChanged((user) => {
 			if (user) {
+				clearInputs();
 				setUser(user);
 			} else {
 				setUser("");
