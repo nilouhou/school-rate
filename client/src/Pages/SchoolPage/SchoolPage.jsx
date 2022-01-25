@@ -50,7 +50,7 @@ const SchoolPage = (props) => {
 			setSchool(data);
 			setComments(data.comments);
 		});
-	}, []);
+	}, [props.match.params]);
 
 	const { address, category, name, rate, rank } = school;
 

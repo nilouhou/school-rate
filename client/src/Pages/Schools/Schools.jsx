@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 
 import Grid from "@mui/material/Grid";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -20,14 +20,17 @@ const Schools = (props) => {
 
 	const { text, isListening, listen } = useVoice();
 
-	const fetchSchoolsbySearch = (query) => {
-		setLoading(true);
-		props.history.push({ search: `search=${query}` });
-		getData(`schools?search=${query}`).then((data) => {
-			setSchoolsData(data);
-			setLoading(false);
-		});
-	};
+	const fetchSchoolsbySearch = useCallback(
+		(query) => {
+			setLoading(true);
+			props.history.push({ search: `search=${query}` });
+			getData(`schools?search=${query}`).then((data) => {
+				setSchoolsData(data);
+				setLoading(false);
+			});
+		},
+		[props.history]
+	);
 
 	useEffect(() => {
 		if (text !== "") {
@@ -36,21 +39,30 @@ const Schools = (props) => {
 			}
 			fetchSchoolsbySearch(text);
 		}
-	}, [text]);
+	}, [text, props.history, fetchSchoolsbySearch]);
 
-	const filterRanking = (schoolsData) => {
-		return schoolsData.filter((school) => school.rank > ranking);
-	};
+	const filterRanking = useCallback(
+		(schoolsData) => {
+			return schoolsData.filter((school) => school.rank > ranking);
+		},
+		[ranking]
+	);
 
-	const filterRating = (schoolsData) => {
-		return schoolsData.filter((school) => school.rate > rating);
-	};
+	const filterRating = useCallback(
+		(schoolsData) => {
+			return schoolsData.filter((school) => school.rate > rating);
+		},
+		[rating]
+	);
 
-	const filterCategory = (schoolsData) => {
-		return schoolsData.filter((school) =>
-			school.category.toLowerCase().trim().includes(type.toLowerCase().trim())
-		);
-	};
+	const filterCategory = useCallback(
+		(schoolsData) => {
+			return schoolsData.filter((school) =>
+				school.category.toLowerCase().trim().includes(type.toLowerCase().trim())
+			);
+		},
+		[type]
+	);
 
 	useEffect(() => {
 		let result = schoolsData;
@@ -60,7 +72,7 @@ const Schools = (props) => {
 		result = filterCategory(result);
 
 		setFilteredSchool(result);
-	}, [ranking, rating, type]);
+	}, [filterCategory, filterRanking, filterRating, schoolsData]);
 
 	useEffect(() => {
 		setLoading(true);
