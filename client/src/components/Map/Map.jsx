@@ -45,12 +45,11 @@ const Map = ({ schools, setChildClicked }) => {
 	return (
 		<div style={{ height: "88vh", width: "100%" }} className="map">
 			<GoogleMapReact
-				bootstrapURLKeys={{ key: "" }}
+				bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
 				defaultCenter={{ lat: 49.28500059925005, lng: -123.11400985419304 }}
 				defaultZoom={defaultProps.zoom}
 				margin={[50, 50, 50, 50]}
 				options={options}
-				// onChange={""}
 				onChildClick={(child) => setChildClicked(child)}
 			>
 				{schools.map((school) =>

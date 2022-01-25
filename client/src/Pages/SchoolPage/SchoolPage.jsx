@@ -105,7 +105,7 @@ const SchoolPage = (props) => {
 							<h3>{category}</h3>
 						</Item>
 					</Stack>
-					<Grid container spacing={0} style={{ width: "100%" }}>
+					<Grid container spacing={4} style={{ width: "100%" }}>
 						<Grid item xs={12} md={8}>
 							<div className="school__review">
 								{user ? (
