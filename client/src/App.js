@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Schools from "./Pages/Schools/Schools";
 import SchoolPage from "./Pages/SchoolPage/SchoolPage";
-import Header from "./components/Header/Header";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./styles/App.scss";
 

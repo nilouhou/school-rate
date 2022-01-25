@@ -27,7 +27,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const SchoolPage = (props) => {
 	const {
 		user,
-		setUser,
+
 		email,
 		setEmail,
 		password,

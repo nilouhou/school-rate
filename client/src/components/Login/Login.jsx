@@ -17,6 +17,11 @@ const Login = (props) => {
 	return (
 		<section className="login">
 			<div className="login__container">
+				<p className="login__info">
+					Welcome to The RateSchool comment community. This is a space where
+					members can engage with each other. In order to comment and rate
+					please login.
+				</p>
 				<label className="login__label">Email</label>
 				<input
 					type="text"
