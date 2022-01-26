@@ -34,7 +34,7 @@ const Schools = (props) => {
 
 	useEffect(() => {
 		if (text !== "") {
-			if (text === "clear") {
+			if (text === "reset") {
 				props.history.push("/");
 			}
 			fetchSchoolsbySearch(text);

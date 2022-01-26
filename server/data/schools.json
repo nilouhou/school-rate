@@ -15,7 +15,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -44,7 +44,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -73,7 +73,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -95,14 +95,14 @@
 			"type": "Point"
 		},
 		"area": "Killarney",
-		"rate": 3,
+		"rate": 5,
 		"rank": 5,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -124,14 +124,14 @@
 			"type": "Point"
 		},
 		"area": "Killarney",
-		"rate": 3,
+		"rate": 5,
 		"rank": 4,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -160,7 +160,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -169,13 +169,6 @@
 				"comment": "I don't like the teachers at all.",
 				"rate": 0,
 				"timestamp": 1633715715504
-			},
-			{
-				"id": "81140004-222d-466a-9e30-12739c7af60b",
-				"name": "Nilou",
-				"comment": "Very good",
-				"rate": 4,
-				"timestamp": 1642818285295
 			}
 		],
 		"recordid": "115835042abcc647392dfe81eaee01b224df102e"
@@ -189,14 +182,14 @@
 			"type": "Point"
 		},
 		"area": "Renfrew-Collingwood",
-		"rate": 3,
+		"rate": 5,
 		"rank": 5,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -225,7 +218,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -254,7 +247,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -263,13 +256,6 @@
 				"comment": "I don't like the teachers at all.",
 				"rate": 0,
 				"timestamp": 1633715715504
-			},
-			{
-				"id": "fa295330-5def-40dc-93ca-dbf47afcccdb",
-				"name": "Nilou",
-				"comment": "it is great",
-				"rate": 5,
-				"timestamp": 1643054684950
 			}
 		],
 		"recordid": "5d2baed5a95215de6485dd5e6c05d8bb29efc20c"
@@ -290,7 +276,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -312,14 +298,14 @@
 			"type": "Point"
 		},
 		"area": "Oakridge",
-		"rate": 3,
+		"rate": 5,
 		"rank": 1,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -348,7 +334,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -377,7 +363,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -399,14 +385,14 @@
 			"type": "Point"
 		},
 		"area": "South Cambie",
-		"rate": 3,
+		"rate": 5,
 		"rank": 10,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -435,7 +421,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -457,14 +443,14 @@
 			"type": "Point"
 		},
 		"area": "Kitsilano",
-		"rate": 3,
+		"rate": 5,
 		"rank": 5,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -493,7 +479,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -522,7 +508,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -551,7 +537,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -580,7 +566,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -609,7 +595,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -638,7 +624,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -667,7 +653,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -696,7 +682,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -725,7 +711,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -754,7 +740,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -782,7 +768,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -810,7 +796,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -831,14 +817,14 @@
 			"type": "Point"
 		},
 		"area": "Kitsilano",
-		"rate": 3,
+		"rate": 5,
 		"rank": 3,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -866,7 +852,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -894,7 +880,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -923,7 +909,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -951,7 +937,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -973,14 +959,14 @@
 			"type": "Point"
 		},
 		"area": "Dunbar-Southlands",
-		"rate": 3,
+		"rate": 5,
 		"rank": 6,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -1009,14 +995,14 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
-				"comment": "I don't like the teachers at all.",
-				"rate": 0,
+				"comment": "Great School and awesome teachers",
+				"rate": 5,
 				"timestamp": 163215715504
 			}
 		],
@@ -1038,7 +1024,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -1067,7 +1053,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -1096,7 +1082,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -1125,7 +1111,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -1154,7 +1140,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -1183,14 +1169,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "b71051ca4b6786d92ed433972c664258c3644e02"
@@ -1211,14 +1198,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "cd1a29b2e286234edd0689f7f31f0bd523e2a9fd"
@@ -1232,21 +1220,22 @@
 			"type": "Point"
 		},
 		"area": "Oakridge",
-		"rate": 3,
+		"rate": 5,
 		"rank": 7,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "d30828c3a502253b30530c8b56f82cd65500ff79"
@@ -1267,14 +1256,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "f897333333a3b5cd6f9bf2529da8898eb4a8e049"
@@ -1295,14 +1285,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "29c203a3edd8cce38ce9a6847a332f4d613c2dc6"
@@ -1323,14 +1314,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "5250c73ffd9bd550ea34e7f74b635a84bc7dc228"
@@ -1351,14 +1343,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "81da8b531c2c160a76b2a8a3af4a1cebe4d8f192"
@@ -1372,21 +1365,22 @@
 			"type": "Point"
 		},
 		"area": "Mount Pleasant",
-		"rate": 3,
+		"rate": 5,
 		"rank": 8,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "d728eb1361b3d6ec67e5284581011e464bc05d9e"
@@ -1407,14 +1401,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "4f84de2fa79f7b9e602de165ac93910ff00dfd28"
@@ -1435,14 +1430,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "8c9bcec74d4f102f7f0cc78841a8f36c83149987"
@@ -1463,14 +1459,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "919766b55ebc4c93582df72c97261b39ba0ac007"
@@ -1491,14 +1488,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "60fb6547f486f7f4582e7378f95c80cb83ddb5cc"
@@ -1519,14 +1517,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "682e2500c9870c7c4ac7e9c67d4d30e5c6380232"
@@ -1547,14 +1546,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "2ecae4119c339142426b7a92fc5a037bfe075ecb"
@@ -1575,14 +1575,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "7713ce37ecacd707f59b9a9c0e162da9d5af0687"
@@ -1603,14 +1604,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "a02183786b01a30bac2b4b3378915ad21b90d3a8"
@@ -1631,14 +1633,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "ee646554733de943d010fe8f549ae19dedbfa0a9"
@@ -1659,14 +1662,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "643a2072cefce3d9c7712a0f923bacb14552454b"
@@ -1687,14 +1691,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "ff3a167f0be50c9685739b8378c210fc7a1db38c"
@@ -1715,14 +1720,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "df3f4e0d3f621388c6ba5570cd9ae5caab877880"
@@ -1736,21 +1742,22 @@
 			"type": "Point"
 		},
 		"area": "South Cambie",
-		"rate": 3,
+		"rate": 5,
 		"rank": 2,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "ef948413a9825efb5140eb42eab74d89c5b765e2"
@@ -1764,21 +1771,22 @@
 			"type": "Point"
 		},
 		"area": "Fairview",
-		"rate": 3,
+		"rate": 5,
 		"rank": 2,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "30ff813f5d4340bd6737549f5b523ce3ec968c69"
@@ -1799,14 +1807,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "4cde5a1955ab98d090218a9075ae569d0d287047"
@@ -1827,14 +1836,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "dfd8fd0859093907f8691c5b6a4bf54f52b7b094"
@@ -1855,14 +1865,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "76d39d9dd11551e8553a4f4c36a3f519a8ef2208"
@@ -1883,14 +1894,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "7ff38ada04e232fb2b943b453bd8e7d33e43af85"
@@ -1911,14 +1923,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "71a2683845b74fe9b8cc04ad48951211a600d557"
@@ -1932,21 +1945,22 @@
 			"type": "Point"
 		},
 		"area": "Killarney",
-		"rate": 3,
+		"rate": 5,
 		"rank": 5,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "d57b4049ee33296d7ed58af7e94e0509bf5bf903"
@@ -1967,14 +1981,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "c5dc2f7564fd9ae92c45a04d9d9684bfcefb1d5f"
@@ -1995,14 +2010,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "a3800d241e02b7c4dc5a5ee36241aa05cd14ad0a"
@@ -2023,14 +2039,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "dd31d468f963530d0ed83e7456325699137f2cbb"
@@ -2051,14 +2068,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "4564a9cb58c4e590ba18f9e1dfc6b717a9657cbb"
@@ -2079,14 +2097,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "cfe9d579b448c4e95053e9d3761e2fb8e261a633"
@@ -2107,14 +2126,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "ff0c8a6bfa5fc721bea56e426dd40b98fc115b45"
@@ -2135,14 +2155,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "831702f8574a2aac0b6e6676a4e5fac87335e914"
@@ -2163,14 +2184,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "d38bd4b1f442732de8dd98a04e5c77fdce2efbb6"
@@ -2191,14 +2213,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "db6d651f05753305d89a93e5807fc4c203697123"
@@ -2219,14 +2242,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "8a1160bb52d32bfa835f8ddd0701fb1055006291"
@@ -2247,14 +2271,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "3269c6d288690b754a981a37601cfe755a765ad2"
@@ -2275,14 +2300,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
-				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"comment": "Teachers are great!",
+				"rate": 3,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "4dbee7f97be2df426e09586688b4583f4a41545d"
@@ -2303,14 +2329,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "780ad192383263e8fe185f5cd16d51a517bb13ca"
@@ -2331,14 +2358,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "7be34e1f36329aa360f74d2d5b0d1dc034f68796"
@@ -2359,14 +2387,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "755ceb96a82e1edf060d1e5b3cb833b6acc459d5"
@@ -2387,14 +2416,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "1450808eaec8ea9dc357f16fb583f027145dcc52"
@@ -2415,14 +2445,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "b2802ff2e91c4f397bd8d08693a9038879791033"
@@ -2443,14 +2474,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "acb77d5a27827704e0200c6e3b355760fbc92ecd"
@@ -2471,14 +2503,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "e3b78ef972ee274295886572bb99f8ef385425f2"
@@ -2499,14 +2532,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "f79a5b51ce8b6825b061399a48119773cd7e131e"
@@ -2527,14 +2561,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "be757f64d44f16d6e1a0e779c793c21b2f430d36"
@@ -2555,14 +2590,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "8a62f0d203f88a69aa4d36c0943142ebcaf4dcd3"
@@ -2583,14 +2619,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "7bb424dc440b3294cf06acbdbeb763703b678743"
@@ -2611,14 +2648,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "0df8b0ca709c00401f0ab36e0c68e84f97eec631"
@@ -2639,14 +2677,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "57e092d41c362a9b889b158055dbb41de154759b"
@@ -2667,7 +2706,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -2676,27 +2715,6 @@
 				"comment": "I don't like the teachers at all.",
 				"rate": 0,
 				"timestamp": 1632715715504
-			},
-			{
-				"id": "3ce8eca6-3895-4f14-9066-9433480ff0b9",
-				"name": "Nilou",
-				"comment": "empty",
-				"rate": 0,
-				"timestamp": 1642720809266
-			},
-			{
-				"id": "74105a48-78bd-4641-a2a6-12370ffa0cc4",
-				"name": "Nilou",
-				"comment": "good",
-				"rate": 5,
-				"timestamp": 1642721441558
-			},
-			{
-				"id": "9cbfd85f-c147-41dd-85eb-15c1c9c86eb1",
-				"name": "Nilou",
-				"comment": "sfsf",
-				"rate": 3,
-				"timestamp": 1642722781144
 			}
 		],
 		"recordid": "72debd5c182c76d963b720b209a607a6a2382e0f"
@@ -2710,21 +2728,22 @@
 			"type": "Point"
 		},
 		"area": "Grandview-Woodland",
-		"rate": 3,
+		"rate": 5,
 		"rank": 8,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "827116d060a915ba9ea6bf56bb9201d319a1dd88"
@@ -2745,14 +2764,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "8177f8a213974aabdbe4720af256e285fefa0c0c"
@@ -2773,14 +2793,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "38d1fbb488dabc0991ea49cbdc7b40f4caee3de9"
@@ -2801,14 +2822,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "16444eaa5513055024a7bcfc37c6ef67e585685f"
@@ -2822,21 +2844,22 @@
 			"type": "Point"
 		},
 		"area": "Killarney",
-		"rate": 3,
+		"rate": 5,
 		"rank": 9,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "84d2b739cd2bb07b3e4ca0fa12953e73a7ea2db5"
@@ -2857,7 +2880,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -2886,7 +2909,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -2915,14 +2938,15 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0
+				"rate": 0,
+				"timestamp": 1633715715504
 			}
 		],
 		"recordid": "21e3892aed89b466a9b4db887fa568a0554587fc"
@@ -2943,7 +2967,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -2972,7 +2996,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1642715715504
 			},
 			{
@@ -3001,7 +3025,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3023,14 +3047,14 @@
 			"type": "Point"
 		},
 		"area": "Dunbar-Southlands",
-		"rate": 3,
+		"rate": 5,
 		"rank": 3,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3052,14 +3076,14 @@
 			"type": "Point"
 		},
 		"area": "Killarney",
-		"rate": 3,
+		"rate": 5,
 		"rank": 7,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3088,7 +3112,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3117,7 +3141,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3146,7 +3170,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3175,7 +3199,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3204,7 +3228,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3226,14 +3250,14 @@
 			"type": "Point"
 		},
 		"area": "Shaughnessy",
-		"rate": 3,
+		"rate": 5,
 		"rank": 3,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3262,7 +3286,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3291,7 +3315,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3320,7 +3344,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3342,14 +3366,14 @@
 			"type": "Point"
 		},
 		"area": "Marpole",
-		"rate": 3,
+		"rate": 5,
 		"rank": 1,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3378,7 +3402,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3407,7 +3431,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3436,7 +3460,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3445,13 +3469,6 @@
 				"comment": "I don't like the teachers at all.",
 				"rate": 0,
 				"timestamp": 1632215715504
-			},
-			{
-				"id": "1513f3c1-9f76-4412-b400-2dfc819b0116",
-				"name": "Nilou",
-				"comment": "Great School",
-				"rate": 4,
-				"timestamp": 1642868854037
 			}
 		],
 		"recordid": "ee779ed8cc6ca8e5b4e8b6f2775cda29e9baa0b9"
@@ -3465,14 +3482,14 @@
 			"type": "Point"
 		},
 		"area": "Arbutus-Ridge",
-		"rate": 3,
+		"rate": 5,
 		"rank": 2,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3501,7 +3518,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3530,7 +3547,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3559,7 +3576,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3588,7 +3605,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3617,7 +3634,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3646,7 +3663,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3675,7 +3692,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3704,7 +3721,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3733,7 +3750,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3762,7 +3779,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3784,14 +3801,14 @@
 			"type": "Point"
 		},
 		"area": "Victoria-Fraserview",
-		"rate": 3,
+		"rate": 5,
 		"rank": 7,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3820,7 +3837,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3849,7 +3866,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3878,7 +3895,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3907,7 +3924,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3936,7 +3953,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3965,7 +3982,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -3987,14 +4004,14 @@
 			"type": "Point"
 		},
 		"area": "Kitsilano",
-		"rate": 3,
+		"rate": 5,
 		"rank": 1,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4023,7 +4040,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4052,7 +4069,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4081,7 +4098,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4110,7 +4127,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4132,14 +4149,14 @@
 			"type": "Point"
 		},
 		"area": "Kensington-Cedar Cottage",
-		"rate": 3,
+		"rate": 5,
 		"rank": 3,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4168,7 +4185,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4197,7 +4214,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4226,7 +4243,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4248,14 +4265,14 @@
 			"type": "Point"
 		},
 		"area": "Hastings-Sunrise",
-		"rate": 3,
+		"rate": 5,
 		"rank": 2,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4284,7 +4301,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4313,7 +4330,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4342,7 +4359,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4371,7 +4388,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4400,7 +4417,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4422,14 +4439,14 @@
 			"type": "Point"
 		},
 		"area": "Kensington-Cedar Cottage",
-		"rate": 5,
+		"rate": 3,
 		"rank": 4,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 4,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4451,21 +4468,21 @@
 			"type": "Point"
 		},
 		"area": "Dunbar-Southlands",
-		"rate": 1,
-		"rank": 4,
+		"rate": 4,
+		"rank": 6,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
-				"comment": "I don't like the teachers at all.",
-				"rate": 0,
+				"comment": "teachers are nice.",
+				"rate": 3,
 				"timestamp": 1632215715504
 			}
 		],
@@ -4487,14 +4504,14 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 4,
 				"timestamp": 1633715715504
 			},
 			{
 				"name": "Emily Harper",
 				"img": "https://mui.com/static/images/avatar/4.jpg",
 				"comment": "I don't like the teachers at all.",
-				"rate": 0,
+				"rate": 2,
 				"timestamp": 1632215715504
 			}
 		],
@@ -4516,7 +4533,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4538,14 +4555,14 @@
 			"type": "Point"
 		},
 		"area": "Victoria-Fraserview",
-		"rate": 3,
+		"rate": 5,
 		"rank": 5,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4574,7 +4591,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4603,7 +4620,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4632,7 +4649,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4661,7 +4678,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4690,7 +4707,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4719,7 +4736,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4741,14 +4758,14 @@
 			"type": "Point"
 		},
 		"area": "Kitsilano",
-		"rate": 3,
+		"rate": 5,
 		"rank": 4,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4777,7 +4794,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4806,7 +4823,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4835,7 +4852,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4864,7 +4881,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4893,7 +4910,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4922,7 +4939,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4951,7 +4968,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -4980,7 +4997,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5009,7 +5026,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5038,7 +5055,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5067,7 +5084,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5096,7 +5113,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5125,7 +5142,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5147,14 +5164,14 @@
 			"type": "Point"
 		},
 		"area": "Shaughnessy",
-		"rate": 3,
+		"rate": 5,
 		"rank": 2,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5176,14 +5193,14 @@
 			"type": "Point"
 		},
 		"area": "Arbutus-Ridge",
-		"rate": 3,
+		"rate": 5,
 		"rank": 4,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5212,7 +5229,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5241,7 +5258,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5270,7 +5287,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5299,7 +5316,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5328,7 +5345,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5350,14 +5367,14 @@
 			"type": "Point"
 		},
 		"area": "Marpole",
-		"rate": 3,
+		"rate": 5,
 		"rank": 1,
 		"comments": [
 			{
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5386,7 +5403,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5415,7 +5432,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5444,7 +5461,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5473,7 +5490,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5502,7 +5519,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5531,7 +5548,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5560,7 +5577,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
@@ -5589,7 +5606,7 @@
 				"name": "Martin Evergreen",
 				"img": "https://mui.com/static/images/avatar/2.jpg",
 				"comment": "This is a good school",
-				"rate": 3,
+				"rate": 5,
 				"timestamp": 1633715715504
 			},
 			{
