@@ -13,9 +13,11 @@ That would be nice to go to a website or app where you can see everything in one
 
 
 ## Technology used:
-Frontend: React.js and Sass, Material UI 
-Backend: Node.js, Express
-Google Map API
+**Client:** React.js and Sass, Material UI, axios, Router 
+
+**Server:** Node.js, Express
+
+Google Map API,
 Web Speech API
 ## Features
 Search by Voice (Speech Recognition)
